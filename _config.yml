@@ -91,11 +91,12 @@ pagination:
 ### Phantom settings
 footer_text: '2022 Johnas Wong'
 admin_name: 'Johnas Wong'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
-enable_contact: false
+# google_analytics: "UA-9999999-99" # Update with your own tracking ID
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+  # - { url: '/resume', text: 'Resume' }
   - { url: '/about', text: 'About' }
