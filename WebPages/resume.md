@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 ## Markdown baby
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Text can be testing **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](/index.html).
 
