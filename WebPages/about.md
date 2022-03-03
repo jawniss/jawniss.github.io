@@ -1,9 +1,9 @@
 ---
 layout: inner
 title: About
-permalink: /resume/
+permalink: /about/
 ---
-## Markdown
+## Markdown alalla
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
