@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hi! I'm Johnas Wong, pleasure to meet you."
+title: "Hi! I'm Johnas, pleasure to meet you :)"
 email: 'johnas@ualberta.ca'
 description: "I am a Computer Engineering Graduate from the University of Alberta eager to code! This is currently my personal webpage under works, template from http://jamigibbs.github.io/phantom/"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -92,7 +92,7 @@ pagination:
 footer_text: '2022 Johnas Wong'
 admin_name: 'Johnas Wong'
 # google_analytics: "UA-9999999-99" # Update with your own tracking ID
-enable_contact: true
+enable_contact: false
 
 #### Phantom Navigation menu
 enable_nav: true
