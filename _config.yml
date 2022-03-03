@@ -98,5 +98,5 @@ enable_contact: true
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  # - { url: '/resume', text: 'Resume' }
+  - { url: '/resume', text: 'Resume' }
   - { url: '/about', text: 'About' }
