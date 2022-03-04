@@ -1,9 +1,9 @@
 ---
 layout: inner
-title: About
+title: Restringing
 permalink: /restringing/
 ---
-## Markdown alalla
+## Markdown
 
 Text can be made **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
