@@ -14,7 +14,7 @@ permalink: /aboutme/
 
 ---
 
-![image test]( ./img/logo.png )
+![image test]( /img/logo.png )
 
 ### _My hobbies_
 
