@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hi! I'm Johnas, pleasure to meet you :)"
+title: "Hey! I'm Johnas, pleasure to meet you :)"
 email: 'johnas@ualberta.ca'
 description: "I am a Computer Engineering Graduate from the University of Alberta eager to code! This is currently my personal webpage under works, template from http://jamigibbs.github.io/phantom/"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -29,6 +29,8 @@ markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate
+
+# Splitter?
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -103,5 +105,7 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+  - { url: '/restringing', text: 'Restringing (Badminton)' }
   - { url: '/resume', text: 'Resume' }
-  - { url: '/about', text: 'About' }
+  - { url: '/about', text: 'About Me' }
+  - { url: '/template', text: 'Template Page' }

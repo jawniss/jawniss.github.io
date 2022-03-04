@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: About
-permalink: /template/
+permalink: /restringing/
 ---
 ## Markdown alalla
 
