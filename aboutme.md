@@ -18,7 +18,7 @@ permalink: /aboutme/
 
 <div style="clear: both;">
   <div style="float: right; margin-right 1em;">
-    <img src=/img/logo.png alt="">
+    <img src="logo.png" alt="">
   </div>
   <div>
     <h2>Some title text</h2>
