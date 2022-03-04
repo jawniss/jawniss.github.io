@@ -13,6 +13,7 @@ main page
 Projects;
 - shadows lie
 - driving app
+- Capstone
 
 
 contact me send me a message at bottom and also a contact me page

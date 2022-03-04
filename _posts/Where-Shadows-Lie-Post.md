@@ -5,7 +5,7 @@ title: 'Where Shadows Lie'
 date: 2022-03-4 14:04:00
 categories: game development
 tags: RPG-Maker-MV Javascript
-featured_image: '01-Where-Shadows-Lie.png'
+featured_image: '/img/posts/01-Where-Shadows-Lie.png'
 project_link: 'https://jordon-ogo.github.io'
 button_icon: 'flask'
 button_text: 'Play our game!'
