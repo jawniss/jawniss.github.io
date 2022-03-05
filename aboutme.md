@@ -15,18 +15,20 @@ permalink: /aboutme/
   <!-- h2 I think is header 2 -->
     <h2> About me! </h2>
     <!-- Most likely p for paragraph -->
-    <p> > I'm a 22 year old born and raised in Edmonton, Alberta, Canada. My family and I are Cantonese. I attended the University of Alberta and graduated with a Computer Engineering degree in 2021. </p>
+    <p> I'm a 22 year old born and raised in Edmonton, Alberta, Canada. My family and I are Cantonese. I attended the University of Alberta and graduated with a Computer Engineering degree in 2021. </p>
   </div>
 </div>
 
-> I've worked on many different types of coding projects, from app and game development to database projects. Working on a programming project is something I find extremely rewarding and enthralling, and I often find myself working nonstop on a project once I've begun.
+> Throughout my undergraduate I've worked on many different types of coding projects, from app and game development to database projects. Working on a programming project is something I find extremely rewarding and enthralling, and I often find myself working nonstop on a project once I've begun.
 >
 > Currently I am working as a teaching assistant for Dr. Sturtevant for his CMPUT 250 Game Development course. This is my second consecutive term serving as a teaching assistant for this course.
+
 
 ---
 
 
-### _My hobbies_
+
+## My hobbies
 
 > Back during high school, I was fortunate enough to make it onto the M.E. LaZerte badminton team, but I was terrible at the sport. I loved playing, but just couldn't keep up with the others. During my first year in university, I joined the University of Alberta badminton club and midway through the year things started clicking! I quickly got better, and became the Gym & Safety Officer for the club for my second, third and final year of my degree. I've been playing for 7 years now, and my love for the sport has only grown.
 >
