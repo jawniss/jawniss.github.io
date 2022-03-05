@@ -9,11 +9,11 @@ permalink: /aboutme/
 
 <div style="clear: both;">
   <div style="float: right; margin-right 1em;">
-    <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="100" height="100">
+    <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="250" height="250">
   </div>
   <div>
   <!-- h2 I think is header 2 -->
-    <h2> About me! 1</h2>
+    <h2> About me!</h2>
     <!-- Most likely p for paragraph -->
     <p> I'm a 22 year old born and raised in Edmonton, Alberta, Canada. My family and I are Cantonese. I attended the University of Alberta and graduated with a Computer Engineering degree in 2021. </p>
   </div>
@@ -32,7 +32,7 @@ permalink: /aboutme/
 
 > Back during high school, I was fortunate enough to make it onto the M.E. LaZerte badminton team, but I was terrible at the sport. I loved playing, but just couldn't keep up with the others. During my first year in university, I joined the University of Alberta badminton club and midway through the year things started clicking! I quickly got better, and became the Gym & Safety Officer for the club for my second, third and final year of my degree. I've been playing for 7 years now, and my love for the sport has only grown.
 >
->> When I began testing new racquet strings and string tensions, I fell in love with BG80's and higher tension, settling at 28x30lbs. However, this string at this high a tension (for me) was a fairly fragile combo, and I found myself snapping my strings quite often. This quickly became an expensive consequence, which tempted me into buying a racquet stringing machine and restringing my own racquets. I've been stringing for 3 years now, and my only regret is not starting earlier!
+>> When I began testing new racquet strings and string tensions, I fell in love with BG80's and higher tension, settling at 28x30lbs. However, this string at this high a tension (for me) was a fairly fragile combo, and I found myself snapping my strings quite often. This quickly became an expensive consequence, which tempted me into buying a racquet stringing machine and restringing my own racquets. I've been stringing for around 4 years now, and my only regret is not starting earlier!
 >>
 >> This year I've found the time to return to M.E. LaZerte and act as a badminton coach for the team. It's been an incredibly rewarding experience, being able to share my knowledge and what I've learned on and off court with the students, and seeing them slowly improve over the practices. I've been trying my best to be a patient and understanding coach, but also trying as hard to be the fun coach among the team :)
 
