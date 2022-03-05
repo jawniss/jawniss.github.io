@@ -9,11 +9,11 @@ permalink: /aboutme/
 
 <div style="clear: both;">
   <div style="float: right; margin-right 1em;">
-    <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="100">
+    <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="100" height="100">
   </div>
   <div>
   <!-- h2 I think is header 2 -->
-    <h2> About me! </h2>
+    <h2> About me! 1</h2>
     <!-- Most likely p for paragraph -->
     <p> I'm a 22 year old born and raised in Edmonton, Alberta, Canada. My family and I are Cantonese. I attended the University of Alberta and graduated with a Computer Engineering degree in 2021. </p>
   </div>
