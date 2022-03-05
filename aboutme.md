@@ -9,7 +9,7 @@ permalink: /aboutme/
 
 <div style="clear: both;">
   <div style="float: right; margin-right 1em;">
-    <img src="/img/Graduation-Picture.jpg" alt="">
+    <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="100">
   </div>
   <div>
   <!-- h2 I think is header 2 -->
