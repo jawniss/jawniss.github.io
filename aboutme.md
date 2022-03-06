@@ -20,7 +20,7 @@ permalink: /aboutme/
 </div>
 >
 >
-> <font size="4"> Throughout my undergraduate I've worked on many different types of coding projects, from app and game development to database projects. Working on a programming project is something I find extremely rewarding and enthralling, and I often find myself working nonstop on a project once I've begun. </font>  
+> <font size="4"> Throughout my undergraduate I've worked on many different types of coding projects, from app and game development to database projects. Working on a programming project is something I find extremely rewarding and enthralling, and I often find myself working nonstop on a project once I've begun. </font><br>
 >
 > <font size="4"> Currently I am working as a teaching assistant for Dr. Sturtevant for his CMPUT 250 Game Development course. This is my second consecutive term serving as a teaching assistant for this course. </font>
 
