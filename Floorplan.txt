@@ -1,14 +1,7 @@
 Home Restringing Resume About Me Contact Me
 
-
-
-
-
-
-
-
-
-main page
+Cool site features:
+- dark/light mode
 
 Projects;
 - shadows lie
@@ -17,13 +10,6 @@ Projects;
 
 
 contact me send me a message at bottom and also a contact me page
-
-----------------------
-
-Restringing tab:
-- don't link kijiji, bascially just redo, make the whole page the ad
-- 
-
 
 ----------------------
 

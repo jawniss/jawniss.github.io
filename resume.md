@@ -5,5 +5,5 @@ permalink: /resume/
 ---
 <p align="center">
 <!-- <embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf" width="900" height="1050">  -->
-<embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf" width="100%" height="100%"> 
+<embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf" width="100%" height="700%"> 
 </p>
