@@ -14,6 +14,8 @@ I'm based in Northside Edmonton, and the Clareview Recreation Centre is the best
 
 I'm always happy to chat about anything badminton!
 
+I can be reached at (825) 436 1704. I don't answer phone calls, so please send me a message and I'll get back to you as soon as I can.
+
 {% highlight txt %}
 Prices:
 
