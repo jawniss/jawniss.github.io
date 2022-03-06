@@ -5,7 +5,7 @@ title: 'Driving App'
 date: 2022-03-6 14:12:00
 categories: Android-Application
 tags: Android-Studio HTML Java JavaScript
-featured_image: '/img/posts/05-Android-Studio-Google-Maps.jpg'
+featured_image: '/img/posts/05-Android-Studio-Google-Maps.png'
 project_link: 'https://github.com/CMPUT301W20T28-H02/specious-marshmellow'
 button_icon: 'flask'
 button_text: 'Source code'
