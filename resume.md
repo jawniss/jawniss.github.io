@@ -3,4 +3,4 @@ layout: inner
 title: About
 permalink: /resume/
 ---
-Resume will be here
+<embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf">
