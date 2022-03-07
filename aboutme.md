@@ -43,3 +43,9 @@ I'm an avid gamer! I started with the PS3 back in Junior High, and got glued to 
 
 
 I've grown a big affinity to cooking, especially since the start of the pandemic in 2020. Being home all day, I began cooking everyday with my mum, cooking every dinner for the rest of the family. What began simply as a way to help alleviate my mom's workload became an interest, where now I'm trying to absorb all my mother's cooking knowledge.
+
+---
+
+### Credits
+
+This website was created based on Jami Gibbs' template found at http://jamigibbs.github.io/phantom/. This template was used under the MIT license.
