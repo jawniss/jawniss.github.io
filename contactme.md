@@ -53,10 +53,10 @@ input[type=submit]:hover {
   method="POST"
   >
     <label for="name">Name</label>
-    <input type="text" id="name" name="Name" placeholder="What's your name?">
+    <input type="text" id="name" name="Name" placeholder="What's your name?" required>
 
     <label for="email">Email</label>
-    <input type="text" id="email" name="Email" placeholder="What's your email?">
+    <input type="text" id="email" name="Email" placeholder="What's your email?" required>
 
     <!-- <label for="country">Country</label>
     <select id="country" name="country">
@@ -66,7 +66,7 @@ input[type=submit]:hover {
     </select> -->
 
     <label for="message">Message</label>
-    <textarea id="message" name="Message" placeholder="Write a message!" style="height:200px"></textarea>
+    <textarea id="message" name="Message" placeholder="Write a message!" style="height:200px" required></textarea>
 
     <input type="submit" value="Send">
   </form>
