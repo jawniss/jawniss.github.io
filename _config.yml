@@ -110,3 +110,4 @@ nav_item:
   - { url: '/aboutme', text: 'About me' }
   # - { url: '/template', text: 'Template page' }
   - { url: '/contactme', text: 'Contact me' }
+  - { url: '/testform', text: 'Test form' }
