@@ -13,7 +13,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
-  width: 100%;
+  width: 67%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -45,7 +45,7 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h3>Contact Form</h3>
+<h3>Contact me</h3>
 
 <div class="container">
   <form
@@ -68,7 +68,7 @@ input[type=submit]:hover {
     <label for="message">Message</label>
     <textarea id="message" name="Message" placeholder="Write a message!" style="height:200px"></textarea>
 
-    <input type="send" value="Send">
+    <input type="submit" value="Send">
   </form>
 </div>
 
