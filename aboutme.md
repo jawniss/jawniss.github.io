@@ -38,7 +38,7 @@ Back during high school, I was fortunate enough to make it onto the M.E. LaZerte
 
 I'm an avid gamer! I started with the PS3 back in Junior High, and got glued to Uncharted 3. At one point someone told me I was top 1000 on the stats leaderboard! The weekends were amazing, crashing on the couch and getting some good games in. 
 
-> <font size="4"> Since then, in the summer of '14, I built my first ever gaming PC with my dad. It was a 7 hour journey, added on top with the power supply dying the next day! (I got a free replacement). Thus started my PC gaming hobby, where I mainly played Counter-Strike: Global Offensive, playing an Overklocked Gaming LAN tournament and getting second place with my friends in 2018. Lost the finals to an ex-CS:GO pro, so I count it as a win in my books ;) </font><br>
+> <font size="4"> Since then, in the summer of '15, I built my first ever gaming PC with my dad. It was a 7 hour journey, added on top with the power supply dying the next day! (I got a free replacement). Thus started my PC gaming hobby, where I mainly played Counter-Strike: Global Offensive, playing an Overklocked Gaming LAN tournament and getting second place with my friends in 2018. Lost the finals to an ex-CS:GO pro, so I count it as a win in my books ;) </font><br>
 > <font size="4"> In 2022 I've stopped playing CS:GO and moved on to Valorant, where I'm hovering at Immortal 3, waiting for the day I finally break through to Radiant. </font>
 
 
