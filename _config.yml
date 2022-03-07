@@ -108,6 +108,4 @@ nav_item:
   - { url: '/restringing', text: 'Restringing (badminton)' }
   - { url: '/resume', text: 'Resume' }
   - { url: '/aboutme', text: 'About me' }
-  # - { url: '/template', text: 'Template page' }
   - { url: '/contactme', text: 'Contact me' }
-  - { url: '/testform', text: 'Test form' }
