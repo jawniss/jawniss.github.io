@@ -4,7 +4,7 @@ title: Test form
 permalink: /testform/
 ---
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,8 +52,11 @@ input[type=submit]:hover {
   action="https://formspree.io/f/mzbogkkl"
   method="POST"
   >
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email" placeholder="Your name..">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="Name" placeholder="What's your name?">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="Email" placeholder="What's your email?">
 
     <!-- <label for="country">Country</label>
     <select id="country" name="country">
@@ -62,10 +65,10 @@ input[type=submit]:hover {
       <option value="usa">USA</option>
     </select> -->
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" placeholder="Write a message!" style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="send" value="Send">
   </form>
 </div>
 
