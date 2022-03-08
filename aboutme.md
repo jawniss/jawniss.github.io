@@ -13,7 +13,7 @@ permalink: /aboutme/
   </div>
   <div>
   <!-- h2 I think is header 2 -->
-    <h2> About me!</h2>
+    <h2> About me </h2>
     <!-- Most likely p for paragraph -->
     <p> <font size="5"> I'm 22 years old, born and raised in Edmonton, Alberta, Canada. I am Cantonese, and my parents immigrated from Hong Kong. I attended the University of Alberta and graduated with a Computer Engineering degree in 2021. </font></p>
   </div>

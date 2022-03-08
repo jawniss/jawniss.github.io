@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: About
+title: Resume
 permalink: /resume/
 ---
 <p align="center">
