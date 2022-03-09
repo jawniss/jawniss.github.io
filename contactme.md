@@ -7,7 +7,7 @@ permalink: /contactme/
 <!-- <!DOCTYPE html> -->
 <html>
 <head>
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=800, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
