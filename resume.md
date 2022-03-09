@@ -4,17 +4,19 @@ title: Resume
 permalink: /resume/
 ---
 <!-- <embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf" width="900" height="1050">  -->
-<div style="margin: 0 auto; width: 100px; text-align: center"><font size="6"><strong>JOHNAS WONG</strong></font></div>
+<div style="margin: 0 auto; text-align: center"><font size="6"><strong>JOHNAS WONG</strong></font></div>
 
 
-<font size="4"> **EDUCATION** </font>
+<font size="4"> <b> EDUCATION </b> </font>
 ---
 <!-- **University of Alberta** | _Edmonton, Alberta_ <p align="right"> Sep 2017 - Apr 2021 </p> -->
-<div style="float: left">**University of Alberta** | _Edmonton, Alberta_</div>
-<div style="float: right"> Sep 2017 - Apr 2021</div>
+<div id="textbox">
+  <p class="alignleft"><b>University of Alberta</b> | _Edmonton, Alberta_</p>
+  <p class="alignright">Sep 2017 - Apr 2021</p>
+</div>
     Bachelor of Science, Computer Engineering
 
-<font size="4"> WORK EXPERIENCE </font>
+<font size="4"><b> WORK EXPERIENCE </b></font>
 ---
 **University of Alberta, Teaching Assistant** | _Edmonton, Alberta_ <p align="right"> Sep 2021 - Present </p>
     I am the Executive Producer for a game development team in the same course where my team developed Where Shadows Lie<sup>1</sup>. I oversee the team’s road maps and progress, using my course experience to guide them to the best producible game by the end of term. This is currently my second consecutive term.
@@ -28,7 +30,7 @@ permalink: /resume/
 **Canadian Tire, Sales Associate** | _Edmonton, Alberta_ <p align="right"> May 2019 - Sep 2019 </p>
     One of the main show floor personnel, whom customers were directed to. Client interaction was a daily routine, where strong communication skills were essential in addressing people's needs and concerns
 
-<font size="4"> **SKILLS, EXPERTISE, AND PROJECTS** </font>
+<font size="4"> <b> SKILLS, EXPERTISE, AND PROJECTS</b></font>
 ---
 Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.
 
