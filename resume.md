@@ -10,7 +10,7 @@ permalink: /resume/
 ---
 <div id="textbox">
   <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
-  <p class="alignright">Sep 2017 - Apr 2021</p>
+  <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
 </div>
 
 <p class="alignleft">
@@ -28,7 +28,7 @@ permalink: /resume/
 
 <div id="textbox">
   <p class="alignleft"><b>University of Alberta, Teaching Assistant</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
-  <p class="alignright">Sep 2021 - Present</p>
+  <p class="alignright"><font size="3">Sep 2021 - Present</font></p>
 </div>
 
 <p class="alignleft">
@@ -41,7 +41,7 @@ permalink: /resume/
 
 <div id="textbox">
   <p class="alignleft"><b>Racquet Restringing Service</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
-  <p class="alignright">Jun 2018 - Present</p>
+  <p class="alignright"><font size="3">Jun 2018 - Present</font></p>
 </div>
 
 <p class="alignleft">
@@ -54,7 +54,7 @@ permalink: /resume/
 
 <div id="textbox">
   <p class="alignleft"><b>CGI, Database Administrator Intern</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
-  <p class="alignright">May 2021 - Aug 2021</p>
+  <p class="alignright"><font size="3">May 2021 - Aug 2021</font></p>
 </div>
 
 <p class="alignleft">
@@ -67,7 +67,7 @@ permalink: /resume/
 
 <div id="textbox">
   <p class="alignleft"><b>Canadian Tire, Sales Associate</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
-  <p class="alignright">May 2019 - Sep 2019</p>
+  <p class="alignright"><font size="3">May 2019 - Sep 2019</font></p>
 </div>
 
 <p class="alignleft">
@@ -84,7 +84,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 
 <div id="textbox">
   <p class="alignleft"><b>Direct Time of Flight Imaging System (LiDAR)</b> | <font size="3"><i>Team Capstone</i> | <i>C++</i></font></p>
-  <p class="alignright">Jan 2021 - Apr 2021</p>
+  <p class="alignright"><font size="3">Jan 2021 - Apr 2021</font></p>
 </div>
 
 <p class="alignleft">
@@ -97,7 +97,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 
 <div id="textbox">
   <p class="alignleft"><b>Where Shadows Lie<sup>1</sup></b> | <font size="3"><i>Team Project</i> | <i>RPG Maker MV Engine, JavaScript</i></font></p>
-  <p class="alignright">Sep 2020 - Dec 2020</p>
+  <p class="alignright"><font size="3">Sep 2020 - Dec 2020</font></p>
 </div>
 
 <p class="alignleft">
@@ -112,7 +112,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 
 <div id="textbox">
   <p class="alignleft"><b>Client-Server Architecture<sup>1</sup></b> | <font size="3"><i>Individual</i> | <i>C++</i></font></p>
-  <p class="alignright">Jan 2020 - Apr 2020</p>
+  <p class="alignright"><font size="3">Jan 2020 - Apr 2020</font></p>
 </div>
 
 <p class="alignleft">
@@ -125,7 +125,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 
 <div id="textbox">
   <p class="alignleft"><b>Specious Marshellow<sup>1</sup></b> | <font size="3"><i>Team Project</i></font> | <font size="3"><i>Android Studio, XML, Java</i></font></p>
-  <p class="alignright">Jan 2020 - Apr 2020</p>
+  <p class="alignright"><font size="3">Jan 2020 - Apr 2020</font></p>
 </div>
 
 <p class="alignleft">
