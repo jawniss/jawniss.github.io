@@ -7,7 +7,7 @@ permalink: /contactme/
 <!-- <!DOCTYPE html> -->
 <html>
 <head>
-<meta name="viewport" content="width=800, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
@@ -57,13 +57,6 @@ input[type=submit]:hover {
 
     <label for="email">Email</label>
     <input type="text" id="email" name="Email" placeholder="What's your email?" required>
-
-    <!-- <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select> -->
 
     <label for="message">Message</label>
     <textarea id="message" name="Message" placeholder="Write a message!" style="height:200px" required></textarea>
