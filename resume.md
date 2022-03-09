@@ -79,7 +79,7 @@ permalink: /resume/
 </div>
 
 <p class="alignleft">
-    <span style="padding-left: 20px; display:block">'
+    <span style="padding-left: 20px; display:block">
     <font size="3">
         One of the main show floor personnel, whom customers were directed to. Client interaction was a daily routine, where strong communication skills were essential in addressing people's needs and concerns.
     </font>
