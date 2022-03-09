@@ -5,7 +5,10 @@ permalink: /resume/
 ---
 <p align="center">
 <!-- <embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf" width="900" height="1050">  -->
-<font size="6"> **JOHNAS WONG**</font> </p>
+<font size="6"> 
+**JOHNAS WONG**
+</font> 
+</p>
 
 <font size="4"> **EDUCATION** </font>
 ---
