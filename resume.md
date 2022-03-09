@@ -117,8 +117,8 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 <p class="alignleft">
     <span style="padding-left: 20px; display:block">
     <font size="3">
-        A game made in RPG Maker MV that was designed to have the world operate on timed-turn intervals.  
-        -  Built the underlying system that enabled tiles to successfully change on command and reset to their original forms correctly.  
+        A game made in RPG Maker MV that was designed to have the world operate on timed-turn intervals. <br>
+        -  Built the underlying system that enabled tiles to successfully change on command and reset to their original forms correctly.<br>
         -  Created the pause menu that allowed players to customize settings of the game.
     </font>
     </span>
@@ -149,8 +149,8 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 <p class="alignleft">
     <span style="padding-left: 20px; display:block">
     <font size="3">
-        Driving service app, where users can connect to others via Wi-Fi and see their current locations.  
-        -  Implemented the Google Maps API, allowing for visual location information to the user.  
+        Driving service app, where users can connect to others via Wi-Fi and see their current locations.<br>
+        -  Implemented the Google Maps API, allowing for visual location information to the user.<br>
         -  Programmed the system that allowed the user to upload or take a photo for their account’s profile picture, storing and retrieving from the Firebase Real-time Database.
     </font>
     </span>
