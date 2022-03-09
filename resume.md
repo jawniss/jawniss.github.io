@@ -3,16 +3,15 @@ layout: inner
 title: Resume
 permalink: /resume/
 ---
-<p align="center">
 <!-- <embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf" width="900" height="1050">  -->
-<font size="6"> 
-**JOHNAS WONG**
-</font> 
-</p>
+<div style="margin: 0 auto; width: 100px; text-align: center"><font size="6">**JOHNAS WONG**</font></div>
+
 
 <font size="4"> **EDUCATION** </font>
 ---
-**University of Alberta** | _Edmonton, Alberta_ <p align="right"> Sep 2017 - Apr 2021 </p>
+<!-- **University of Alberta** | _Edmonton, Alberta_ <p align="right"> Sep 2017 - Apr 2021 </p> -->
+<div style="float: left">**University of Alberta** | _Edmonton, Alberta_</div>
+<div style="float: right"> Sep 2017 - Apr 2021</div>
     Bachelor of Science, Computer Engineering
 
 <font size="4"> WORK EXPERIENCE </font>
