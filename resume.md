@@ -10,9 +10,14 @@ permalink: /resume/
 <font size="4"> <b> EDUCATION </b> </font>
 ---
 <!-- **University of Alberta** | _Edmonton, Alberta_ <p align="right"> Sep 2017 - Apr 2021 </p> -->
-  <p class="alignleft"><b>University of Alberta</b> | <i>Edmonton, Alberta_</i></p>
+<div id="textbox">
+  <p class="alignleft"><b>University of Alberta</b> | <i>Edmonton, Alberta</i></p>
   <p class="alignright">Sep 2017 - Apr 2021</p>
-    Bachelor of Science, Computer Engineering
+</div>
+
+<p class="alignleft"> Bachelor of Science, Computer Engineering </p>
+
+<div style="clear: both;"></div>
 
 <font size="4"><b> WORK EXPERIENCE </b></font>
 ---
