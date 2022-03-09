@@ -7,7 +7,7 @@ categories: Game-Development
 tags: RPG-Maker-MV Javascript
 featured_image: '/img/posts/01-Where-Shadows-Lie.png'
 project_link: 'https://jordon-ogo.github.io'
-button_icon: 'flask'
+button_icon: 'github'
 button_text: 'Play our game!'
 lead_text: "A single player experience created by a student dev team, developed in the RPG Maker MV game engine. Most plugins were custom made using Javascript to add the features we wanted."
 ---
