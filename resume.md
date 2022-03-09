@@ -9,7 +9,7 @@ permalink: /resume/
 <font size="4"> <b> EDUCATION </b> </font>
 ---
 <div id="textbox">
-  <p class="alignleft"><b>University of Alberta</b> | <i>Edmonton, Alberta</i></p>
+  <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright">Sep 2017 - Apr 2021</p>
 </div>
 
@@ -27,7 +27,7 @@ permalink: /resume/
 ---
 
 <div id="textbox">
-  <p class="alignleft"><b>University of Alberta, Teaching Assistant</b> | <i>Edmonton, Alberta</i></p>
+  <p class="alignleft"><b>University of Alberta, Teaching Assistant</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright">Sep 2021 - Present</p>
 </div>
 
@@ -39,10 +39,8 @@ permalink: /resume/
 
 <div style="clear: both;"></div>
 
-<br>
-
 <div id="textbox">
-  <p class="alignleft"><b>Racquet Restringing Service</b> | <i>Edmonton, Alberta</i></p>
+  <p class="alignleft"><b>Racquet Restringing Service</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright">Jun 2018 - Present</p>
 </div>
 
@@ -54,10 +52,8 @@ permalink: /resume/
 
 <div style="clear: both;"></div>
 
-<br>
-
 <div id="textbox">
-  <p class="alignleft"><b>CGI, Database Administrator Intern</b> | <i>Edmonton, Alberta</i></p>
+  <p class="alignleft"><b>CGI, Database Administrator Intern</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright">May 2021 - Aug 2021</p>
 </div>
 
@@ -69,10 +65,8 @@ permalink: /resume/
 
 <div style="clear: both;"></div>
 
-<br>
-
 <div id="textbox">
-  <p class="alignleft"><b>Canadian Tire, Sales Associate</b> | <i>Edmonton, Alberta</i></p>
+  <p class="alignleft"><b>Canadian Tire, Sales Associate</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright">May 2019 - Sep 2019</p>
 </div>
 
@@ -84,14 +78,12 @@ permalink: /resume/
 
 <div style="clear: both;"></div>
 
-<br>
-
 <font size="4"> <b> SKILLS, EXPERTISE, AND PROJECTS</b></font>
 ---
 Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.
 
 <div id="textbox">
-  <p class="alignleft"><b>Direct Time of Flight Imaging System (LiDAR)</b> | <i>Team Capstone</i> | <i>C++</i></p>
+  <p class="alignleft"><b>Direct Time of Flight Imaging System (LiDAR)</b> | <font size="3"><i>Team Capstone</i> | <i>C++</i></font></p>
   <p class="alignright">Jan 2021 - Apr 2021</p>
 </div>
 
@@ -103,10 +95,8 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 
 <div style="clear: both;"></div>
 
-<br>
-
 <div id="textbox">
-  <p class="alignleft"><b>Where Shadows Lie<sup>1</sup></b> | <i>Team Project</i> | <i>RPG Maker MV Engine, JavaScript</i></p>
+  <p class="alignleft"><b>Where Shadows Lie<sup>1</sup></b> | <font size="3"><i>Team Project</i> | <i>RPG Maker MV Engine, JavaScript</i></font></p>
   <p class="alignright">Sep 2020 - Dec 2020</p>
 </div>
 
@@ -120,10 +110,8 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 
 <div style="clear: both;"></div>
 
-<br>
-
 <div id="textbox">
-  <p class="alignleft"><b>Client-Server Architecture<sup>1</sup></b> | <i>Individual</i> | <i>C++</i></p>
+  <p class="alignleft"><b>Client-Server Architecture<sup>1</sup></b> | <font size="3"><i>Individual</i> | <i>C++</i></font></p>
   <p class="alignright">Jan 2020 - Apr 2020</p>
 </div>
 
@@ -135,10 +123,8 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 
 <div style="clear: both;"></div>
 
-<br>
-
 <div id="textbox">
-  <p class="alignleft"><b>Specious Marshellow<sup>1</sup></b> | <i>Team Project</i> | <i>Android Studio, XML, Java</i></p>
+  <p class="alignleft"><b>Specious Marshellow<sup>1</sup></b> | <font size="3"><i>Team Project</i></font> | <font size="3"><i>Android Studio, XML, Java</i></font></p>
   <p class="alignright">Jan 2020 - Apr 2020</p>
 </div>
 
