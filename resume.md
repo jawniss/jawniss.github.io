@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 <!-- <embed src="/img/Johnas-Wong-Resume.pdf" type="application/pdf" width="900" height="1050">  -->
-<div style="margin: 0 auto; width: 100px; text-align: center"><font size="6">**JOHNAS WONG**</font></div>
+<div style="margin: 0 auto; width: 100px; text-align: center"><font size="6"><strong>JOHNAS WONG</strong></font></div>
 
 
 <font size="4"> **EDUCATION** </font>
