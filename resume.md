@@ -110,15 +110,15 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 <div style="clear: both;"></div>
 
 <div id="textbox">
-  <p class="alignleft"><b>Where Shadows Lie<sup>1</sup></b> | <font size="3"><i>Team Project</i> | <i>RPG Maker MV Engine, JavaScript</i></font></p>
+  <p class="alignleft"><b>Where Shadows Lie<sup>1</sup></b> | <font size="3"><i>Team Project</i></font> | <font size="3"><i>RPG Maker MV Engine, JavaScript</i></font></p>
   <p class="alignright"><font size="3">Sep 2020 - Dec 2020</font></p>
 </div>
 
 <p class="alignleft">
     <span style="padding-left: 20px; display:block">
     <font size="3">
-        A game made in RPG Maker MV that was designed to have the world operate on timed-turn intervals.
-        -  Built the underlying system that enabled tiles to successfully change on command and reset to their original forms correctly.
+        A game made in RPG Maker MV that was designed to have the world operate on timed-turn intervals.  
+        -  Built the underlying system that enabled tiles to successfully change on command and reset to their original forms correctly.  
         -  Created the pause menu that allowed players to customize settings of the game.
     </font>
     </span>
@@ -127,7 +127,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 <div style="clear: both;"></div>
 
 <div id="textbox">
-  <p class="alignleft"><b>Client-Server Architecture<sup>1</sup></b> | <font size="3"><i>Individual</i> | <i>C++</i></font></p>
+  <p class="alignleft"><b>Client-Server Architecture<sup>1</sup></b> | <font size="3"><i>Individual</i></font> | <font size="3"><i>C++</i></font></p>
   <p class="alignright"><font size="3">Jan 2020 - Apr 2020</font></p>
 </div>
 
@@ -149,9 +149,9 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
 <p class="alignleft">
     <span style="padding-left: 20px; display:block">
     <font size="3">
-        Driving service app, where users can connect to others via Wi-Fi and see their current locations.
-        - Implemented the Google Maps API, allowing for visual location information to the user.
-        - Programmed the system that allowed the user to upload or take a photo for their account’s profile picture, storing and retrieving from the Firebase Real-time Database.
+        Driving service app, where users can connect to others via Wi-Fi and see their current locations.  
+        -  Implemented the Google Maps API, allowing for visual location information to the user.  
+        -  Programmed the system that allowed the user to upload or take a photo for their account’s profile picture, storing and retrieving from the Firebase Real-time Database.
     </font>
     </span>
 </p>
