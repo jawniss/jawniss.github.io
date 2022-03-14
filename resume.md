@@ -12,7 +12,7 @@ permalink: /resume/
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         Bachelor of Science, Computer Engineering
@@ -47,7 +47,7 @@ permalink: /resume/
   <p class="alignright"><font size="3">Jun 2018 - Present</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         I offer a restringing service where I restore racquets to playable condition, each job varying per player. Clear communication with clients is imperative in ensuring I am providing exactly what they want.
@@ -62,7 +62,7 @@ permalink: /resume/
   <p class="alignright"><font size="3">May 2021 - Aug 2021</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         A summer internship at CGI where I learned to work within a team and apply my skills to live projects. I worked within the Alberta Transportation team that was tasked with developing and maintaining live transportation applications. I tested, looked for, and logged all glitches and unintended behaviours of numerous current major applications in their DEV environment across multiple platforms.
@@ -77,7 +77,7 @@ permalink: /resume/
   <p class="alignright"><font size="3">May 2019 - Sep 2019</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         One of the main show floor personnel, whom customers were directed to. Client interaction was a daily routine, where strong communication skills were essential in addressing people's needs and concerns.
@@ -98,7 +98,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
   <p class="alignright"><font size="3">Jan 2021 - Apr 2021</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         A prototype able to detect and process the distance of objects, displaying the data in real time. This was accomplished by utilizing a laser diode to send out a pulse, calculating the distance by timing the reflected pulse. This was then processed and displayed in a human readable format for the user. This system aimed to and successfully provided a compact, portable, all-in-one imaging system package.
@@ -113,7 +113,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
   <p class="alignright"><font size="3">Sep 2020 - Dec 2020</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         A game made in RPG Maker MV that was designed to have the world operate on timed-turn intervals. <br>
@@ -130,7 +130,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
   <p class="alignright"><font size="3">Jan 2020 - Apr 2020</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         This program successfully established a socket connection dictated by a unique port number and IP address in which multiple terminals could connect to, allowing them to send and receive data to one another. A queue successfully retained the order the clients sent their data in, ensuring the correct orderof messages received by the server.
@@ -145,7 +145,7 @@ Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android
   <p class="alignright"><font size="3">Jan 2020 - Apr 2020</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         Driving service app, where users can connect to others via Wi-Fi and see their current locations.<br>
