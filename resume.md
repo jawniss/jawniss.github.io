@@ -32,7 +32,7 @@ permalink: /resume/
   <p class="alignright"><font size="3">Sep 2021 - Present</font></p>
 </div>
 
-<p class="alignleft">
+<p class="alignleft" align=justify>
     <span style="padding-left: 30px; display:block">
     <font size="3">
         I am the Executive Producer for a game development team in the same course where my team developed Where Shadows Lie<sup>1</sup>. I oversee the team’s road maps and progress, using my course experience to guide them to the best producible game by the end of term. This is currently my second consecutive term.
