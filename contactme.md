@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: contactmelayout
 title: Contact me
 permalink: /contactme/
 ---
