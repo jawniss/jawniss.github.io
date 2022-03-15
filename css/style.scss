@@ -264,7 +264,7 @@ button.btn, input.btn {
     }
   }
   .content {
-    margin-top: 5em;
+    margin-top: 0;
     margin-left: 5em;
     @include bp-xsmall {
       margin-left: 0;
@@ -275,7 +275,7 @@ button.btn, input.btn {
       &:after {
         content: '';
         position: absolute;
-        top: 0;
+        top: 1.5em;
         left: 0;
         width: 3em;
         height: 3px;
