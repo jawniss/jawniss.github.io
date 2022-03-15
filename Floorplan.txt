@@ -1,7 +1,7 @@
 Home Restringing Resume About Me Contact Me
 
 Cool site features:
-- dark/light mode
+- dark/light mode >> i think set varaiables, check value then set the colour based on that
 
 Projects;
 - 
