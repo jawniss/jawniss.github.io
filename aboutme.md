@@ -8,14 +8,14 @@ permalink: /aboutme/
 <!-- ![image test]( /img/logo.png ) -->
 
 <div style="clear: both;">
-  <div style="float: right; margin-right 1em;">
-    <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="250" height="250" style="padding-left: 20 px">
+  <div style="float: right; margin-right 1em; padding-left: 20px;">
+    <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="250" height="250">
   </div>
   <div>
   <!-- h2 I think is header 2 -->
     <h2> About me </h2>
     <!-- Most likely p for paragraph -->
-    <p align=justify style="padding-right: 20px"> <font size="5"> I'm 22 years old, born and raised in Edmonton, Alberta, Canada. I am Cantonese, and my parents immigrated from Hong Kong. I attended the University of Alberta and graduated with a Computer Engineering degree in 2021. </font></p>
+    <p align=justify> <font size="5"> I'm a 22 year old born and raised in Edmonton, Alberta, Canada. I am Cantonese, and my parents immigrated from Hong Kong. I attended the University of Alberta and graduated in Computer Engineering in 2021. </font></p>
   </div>
 </div>
 >
