@@ -16,6 +16,7 @@ I'm based in Northside Edmonton, and the Clareview Recreation Centre is the best
 I'm always happy to chat about anything badminton! <br>
 <br>
 [Please send me a message](https://jawniss.github.io/contactme/) and I'll get back to you as soon as I can.
+[Link to another page](/contactme)
 </p>
 
 {% highlight txt %}
