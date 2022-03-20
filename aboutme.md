@@ -7,17 +7,17 @@ permalink: /aboutme/
 
 <!-- ![image test]( /img/logo.png ) -->
 
-<div style="clear: both;">
+<!-- <div style="clear: both;">
   <div style="float: right; margin-right 1em; padding-left: 20px;">
     <img src="/img/Graduation-Picture.jpg" alt="My graduation photo in 2021" width="250" height="250">
-  </div>
+  </div> -->
   <div>
   <!-- h2 I think is header 2 -->
     <h2> About me </h2>
     <!-- Most likely p for paragraph -->
     <p align=justify> <font size="5"> I'm a 22 year old born and raised in Edmonton, Alberta, Canada. I'm Cantonese, and my parents immigrated from Hong Kong. I attended the University of Alberta and graduated in Computer Engineering in April 2021. </font></p>
   </div>
-</div>
+<!-- </div> -->
 >
 >
 > <font size="4" align=justify> <br> Throughout my undergraduate I've worked on many different types of coding projects, from app and game development to database projects. Working on a programming project is something I find extremely rewarding and enthralling, and I often find myself working nonstop on a project once I've begun. </font><br>
