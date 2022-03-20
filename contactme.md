@@ -49,7 +49,7 @@ input[type=submit]:hover {
 <br>
 <center> <h3> <font size="7"> Contact me </font> </h3> </center>
 
-<!-- <div class="container"> -->
+<div class="container">
   <form
   action="https://formspree.io/f/mzbogkkl"
   method="POST"
@@ -65,7 +65,7 @@ input[type=submit]:hover {
 
     <input type="submit" value="Send">
   </form>
-<!-- </div> -->
+</div>
 
 </body>
 </html>
