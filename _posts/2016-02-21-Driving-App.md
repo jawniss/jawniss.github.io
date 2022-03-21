@@ -4,7 +4,7 @@ position: right
 title: 'Driving App'
 date: 2022-03-6 14:12:00
 categories: Android-Application
-tags: Android-Studio HTML Java JavaScript
+tags: Android-Studio Java XML
 featured_image: '/img/posts/05-Android-Studio-Google-Maps.png'
 project_link: 'https://github.com/CMPUT301W20T28-H02/specious-marshmellow'
 button_icon: 'github'
