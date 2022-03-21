@@ -3,7 +3,7 @@ layout: inner
 position: right
 title: 'Client Server Model'
 date: 2022-03-17 20:02:00
-categories: Terminal-Program
+categories: Individual-Project Terminal-Program
 tags: C++ C Makefile
 featured_image: '/img/posts/07-Client-Server-Program.png'
 project_link: 'https://github.com/jawniss/CMPUT379-Assign2'

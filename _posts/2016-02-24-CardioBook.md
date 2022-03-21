@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: left
-title: 'CardioBook'
+title: 'CardioBook App'
 date: 2022-03-20 20:49:00
 categories: Android-Application
 tags: Android-Studio Java XML
