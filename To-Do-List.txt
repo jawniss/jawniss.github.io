@@ -8,9 +8,6 @@
 
 - The contact page box is no border on the right cus the input box area is just a bit bigger than border perimeter
 
-- Try to edit the phone pictures bottoms to be smoother
-  - also try to make them all light mode >> maybe just paint fill
-
 - projects still to add:
   - CMPUT275-Winter-2019-Assign-1
   - CMPUT275-Winter-2019-Assign-2
