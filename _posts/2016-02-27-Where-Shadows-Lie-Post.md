@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'Where Shadows Lie'
 date: 2022-03-4 14:04:00
 categories: Team-Project Game-Development

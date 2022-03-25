@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'Pseudo Task Manager'
 date: 2022-03-20 20:49:00
 categories: Individual-Project Hobby-Project

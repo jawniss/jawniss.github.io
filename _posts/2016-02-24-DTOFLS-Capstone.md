@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'Direct Time of Flight Imaging System'
 date: 2022-03-4 14:41:00
 categories: Team-Project Prototype

@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'Client Server Model'
 date: 2022-03-17 20:02:00
 categories: Individual-Project Terminal-Program

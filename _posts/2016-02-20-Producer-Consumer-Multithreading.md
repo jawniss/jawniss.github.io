@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'Producer Consumer Multithreading'
 date: 2022-03-14 17:06:00
 categories: Individual-Project Terminal-Program
