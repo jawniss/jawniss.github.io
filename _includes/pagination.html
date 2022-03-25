@@ -5,13 +5,13 @@
 <nav class="pagination-wrap">
     <ul class="pagination">
         {% if paginator.previous_page %}
-        <li>
-            <center>
+        <center>
+            <li>
                 <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
                 </a>
-            </center>
-        </li>
+            </li>
+        </center>
         {% endif %}
 
         {% if paginator.page_trail %}
@@ -23,13 +23,13 @@
         {% endif %}
 
         {% if paginator.next_page %}
-        <li>
-            <center>
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </center>
-        </li>
+        <center>
+            <li>
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+            </li>
+        </center>
         {% endif %}
     </ul>
 </nav>
