@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'Pseudo Task Manager'
-date: 2022-03-20 20:49:00
+date: 2022-01-05 00:00:00
 categories: Individual-Project Hobby-Project
 tags: Makefile C++
 featured_image: '/img/posts/09-Pseudo-Task-Manager.png'

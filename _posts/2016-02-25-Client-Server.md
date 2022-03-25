@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'Client Server Model'
-date: 2022-03-17 20:02:00
+date: 2022-01-07 00:00:00
 categories: Individual-Project Terminal-Program
 tags: C++ C Makefile
 featured_image: '/img/posts/07-Client-Server-Program.png'

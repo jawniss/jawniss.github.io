@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'Producer Consumer Multithreading'
-date: 2022-03-14 17:06:00
+date: 2022-01-02 00:00:00
 categories: Individual-Project Terminal-Program
 tags: C++ C Makefile
 featured_image: '/img/posts/06-Producer-Consumer-Multithreading.png'

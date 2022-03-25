@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'Driving App'
-date: 2022-03-6 14:12:00
+date: 2022-01-08 00:00:00
 categories: Team-Project Android-Application
 tags: Android-Studio Java XML
 featured_image: '/img/posts/05-Android-Studio-Google-Maps.png'

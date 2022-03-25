@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'Direct Time of Flight Imaging System'
-date: 2022-03-4 14:41:00
+date: 2022-01-06 00:00:00
 categories: Team-Project Prototype
 tags: C++ VHDL
 featured_image: '/img/posts/02-DTOFIS-Capstone.png'

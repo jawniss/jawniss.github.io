@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'Where Shadows Lie'
-date: 2022-03-4 14:04:00
+date: 2022-01-09 00:00:00
 categories: Team-Project Game-Development
 tags: RPG-Maker-MV Javascript
 featured_image: '/img/posts/01-Where-Shadows-Lie.png'
