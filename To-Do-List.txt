@@ -7,8 +7,3 @@
 - Check how site looks on mobile
 
 - The contact page box is no border on the right cus the input box area is just a bit bigger than border perimeter
-
-- projects still to add:
-  - CMPUT275-Winter-2019-Assign-1
-  - CMPUT275-Winter-2019-Assign-2
-  - CMPUT291-Mini-Project-2 ?

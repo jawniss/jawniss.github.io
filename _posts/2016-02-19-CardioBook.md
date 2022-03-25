@@ -3,7 +3,7 @@ layout: inner
 position: left
 title: 'CardioBook App'
 date: 2022-01-01 00:00:00
-categories: Android-Application
+categories: Individual-Project Android-Application
 tags: Android-Studio Java XML
 featured_image: '/img/posts/03-CardioBook.png'
 project_link: 'https://github.com/jawniss/CMPUT301-Assign-1'
