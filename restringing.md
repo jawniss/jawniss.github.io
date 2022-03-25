@@ -27,5 +27,5 @@ Prices:
 27 - BG80
 30 - Exbolt 63
 5  - Grip replacement (White)
-5  - Full frame grommet replacement (Currently no flared)
+5  - Full frame grommet replacement (including flared grommets)
 {% endhighlight %}
