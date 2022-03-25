@@ -16,6 +16,8 @@ input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
+  border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -30,15 +32,21 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
+  border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea;
 }
 
 .container {
   border-radius: 5px;
   background-color: #ffffff;
+  border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea;
   padding: 20px;
 }
 </style>
