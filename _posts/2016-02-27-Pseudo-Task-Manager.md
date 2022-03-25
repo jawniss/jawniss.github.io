@@ -1,13 +1,13 @@
 ---
 layout: inner
 position: right
-title: 'SQL Sales Catalog Project'
+title: 'Pseudo Task Manager'
 date: 2022-03-20 20:49:00
-categories: Team-Project Database-Handler
-tags: Database Python SQL 
-featured_image: '/img/posts/04-SQL-Sales-Catalog-Project.png'
-project_link: 'https://github.com/jawniss/CMPUT291-Mini-Project-1'
+categories: Individual-Project Hobby-Project
+tags: Makefile C++
+featured_image: '/img/posts/09-Pseudo-Task-Manager.png'
+project_link: 'https://github.com/jawniss/Pseudo-Task-Manager'
 button_icon: 'github'
 button_text: 'Source code'
-lead_text: "This program was built to access and alter a user inputted database using SQL statements via a created python handler. A database containing product information and product sales advertisements was used, and a python script was created to take in user inputs to display all products for sale, search for certain sales, and post product ads. There was also functionality to search for and see sellers information."
+lead_text: "This project is my task manager like managing system that can detect and list all currently open applications, and is able to select a program of the user's choice. It displays the  applications' process ID and name. Currently there are no further actions with the selected application, but desired features is to have the option of minimizing, maximizing, or killing the selected program."
 ---
