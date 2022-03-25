@@ -1,11 +1,16 @@
 {% if paginator.total_pages > 1 %}
+
+<center> <h2> <font size="5"> Next page of Projects </font> </h2> </center>
+
 <nav class="pagination-wrap">
     <ul class="pagination">
         {% if paginator.previous_page %}
         <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
+            <center>
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </center>
         </li>
         {% endif %}
 
@@ -19,9 +24,11 @@
 
         {% if paginator.next_page %}
         <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
+            <center>
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </center>
         </li>
         {% endif %}
     </ul>
