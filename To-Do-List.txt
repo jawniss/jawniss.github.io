@@ -2,6 +2,8 @@
   - I think I can set variables like in _config, depending on the value of the dark/light mode toggle switch 
     change the colour of background + text
 
+  - See if I can add a button toggle in the header
+
 - Check how site looks on mobile
 
 - The contact page box is no border on the right cus the input box area is just a bit bigger than border perimeter
