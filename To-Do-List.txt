@@ -11,6 +11,4 @@
 - projects still to add:
   - CMPUT275-Winter-2019-Assign-1
   - CMPUT275-Winter-2019-Assign-2
-  - CMPUT291-Mini-Project-1 
   - CMPUT291-Mini-Project-2 ?
-  - Psuedo-Task-Manager

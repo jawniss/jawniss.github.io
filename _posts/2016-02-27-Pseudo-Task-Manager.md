@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'SQL Sales Catalog Project'
 date: 2022-03-20 20:49:00
 categories: Team-Project Database-Handler
