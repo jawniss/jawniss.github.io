@@ -7,5 +7,6 @@
 - Check how site looks on mobile
 
 - The contact page box is no border on the right cus the input box area is just a bit bigger than border perimeter
+  - Something with border on the contact form container?
 
 - Find and change button icons

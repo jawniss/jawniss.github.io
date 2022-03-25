@@ -88,7 +88,9 @@ button.btn, input.btn {
 }
 
 .main {
-  background-color: white;
+  // Main page background colour?
+  background-color: rgb(146, 60, 60);
+  // background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
   &.container {
@@ -364,9 +366,12 @@ pre {
 	6.0 Syntax highlighting styles
 --------------------------------------------------------------*/
 .highlight {
-  background: rgb(3, 255, 255); }
+  // I think whole website background colour
+  background: #fff; }
+  // background: #fff; }
   .highlighter-rouge .highlight {
     background: #eef; }
+    // background: #eef; }
     .highlight .hll { background-color: #ffffcc }
     .highlight .c { color: #8f5902; font-style: italic } /* Comment */
     .highlight .err { color: #a40000 } /* Error */
