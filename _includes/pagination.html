@@ -6,12 +6,13 @@
     <nav class="pagination-wrap">
         <ul class="pagination">
             {% if paginator.previous_page %}
-            <center> <h3> <font size="5"> Previous projects page </font> </h3> </center>
+            <center> <h3> <font size="5"> Previous page of projects </font> </h3> 
             <li>
                 <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
                 </a>
             </li>
+            </center>
             {% endif %}
 
             {% if paginator.page_trail %}
@@ -23,12 +24,13 @@
             {% endif %}
 
             {% if paginator.next_page %}
-            <center> <h3> <font size="5"> Next projects page </font> </h3> </center>
+            <center> <h3> <font size="5"> Next page of projects </font> </h3>
             <li>
                     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>
                     </a>
             </li>
+            </center>
             {% endif %}
         </ul>
     </nav>
