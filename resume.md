@@ -3,6 +3,10 @@ layout: inner
 title: Resume
 permalink: /resume/
 ---
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="./script.js"></script>
+
 <div style="margin: 0 auto; text-align: center"><font size="6"><strong>JOHNAS WONG</strong></font></div>
 
 <font size="4"> <b> EDUCATION </b> </font>

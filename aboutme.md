@@ -3,8 +3,11 @@ layout: inner
 title: About me
 permalink: /aboutme/
 ---
-<!-- Not sure why the text font is different -->
 
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="./script.js"></script>
+
+<!-- Not sure why the text font is different -->
   <div>
   <!-- h2 I think is header 2 -->
     <h2> About me </h2>
@@ -50,7 +53,8 @@ permalink: /aboutme/
 
 ### Credits
 
-<div align=justify> This website was created based on Jami Gibbs' template found at http://jamigibbs.github.io/phantom/. This template was used under the MIT license. 
+<div align=justify> This website was created based on Jami Gibbs' template found at http://jamigibbs.github.io/phantom/. 
+This template was used under the MIT license. 
 
 <br>
 <br>
