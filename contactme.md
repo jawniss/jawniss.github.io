@@ -71,7 +71,9 @@ input[type=submit]:hover {
     <label for="message">Message</label>
     <textarea id="message" name="Message" placeholder="Write a message!" style="height:200px" required></textarea>
 
-    <input type="submit" value="Send">
+    <span class="darkmode-ignore">
+      <input type="submit" value="Send">
+    </span>
   </form>
 </div>
 
