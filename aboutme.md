@@ -13,7 +13,7 @@ permalink: /aboutme/
   </div>
 >
 >
-> <div align=justify> <p> <font size="4"> <br> Throughout my undergraduate I've worked on many different types of coding projects, from app and game development to database projects. Working on a programming project is something I find extremely rewarding and enthralling, and I often find myself working nonstop on a project once I've begun. </font> </p</div>
+> <div align=justify> <p> <font size="4"> <br> Throughout my undergraduate I've worked on many different types of coding projects, from app and game development to database projects. Working on a programming project is something I find extremely rewarding and enthralling, and I often find myself working nonstop on a project once I've begun. </font> </p></div>
 <br>
 > <div align=justify> <p> <font size="4"> Currently I am working as a teaching assistant for Dr. Sturtevant for his CMPUT 250 Game Development course. This is my second consecutive term serving as a teaching assistant for this course. </font> </p> </div>
 <br>
@@ -25,7 +25,7 @@ permalink: /aboutme/
 
 ## My hobbies
 
-<div align=justify> <p> <font size="4"> I was on the M.E. LaZerte High School badminton team, but honestly I was terrible! I loved playing, but couldn't keep up. In my first year of Uni I joined the badminton club and midway through the year things started clicking! I quickly got better, and became the Gym & Safety Officer for the club for my second, third, and final year of schooling. I've been playing for 7 years now, and my love for the sport has only grown. </p></font></div>
+<div align=justify> <p> <font size="4"> I was on the M.E. LaZerte High School badminton team, but honestly I was terrible! I loved playing, but couldn't keep up. In my first year of Uni I joined the badminton club and midway through the year things started clicking! I quickly got better, and became the Gym & Safety Officer for the club for my second, third, and final year of schooling. I've been playing for 7 years now, and my love for the sport has only grown. </font></p></div>
 
 > <div align=justify> <p> <font size="4"> <br> My strings were BG80's at 28x30lbs, but this was a fragile for me, and I was snapping them often. This pushed me into buying a stringing machine and restringing my own racquets. I've been stringing for around 4 years now, and my only regret is not starting earlier! I now use EXBOLT 63's at 25-26lbs. </font> </p></div> 
 <br>
