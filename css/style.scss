@@ -451,3 +451,7 @@ pre {
 .alignright {
 	float: right;
 }
+
+.darkmode--activated p, .darkmode--activated li {
+  color: rgb(0, 204, 255);
+}

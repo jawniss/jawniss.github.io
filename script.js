@@ -14,5 +14,7 @@ const options =
 }
 
 const darkmode = new Darkmode(options);
-darkmode.toggle();
+
+// For some reason having it toggled on at the start breaks it
+// darkmode.toggle();
 darkmode.showWidget();

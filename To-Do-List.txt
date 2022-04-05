@@ -1,6 +1,7 @@
 - Dark mode/light mode 
   - Working but text colour is not good
   - Add white outline to all the pictures
+  - Add dark mode to all other pages
 
 - Check how site looks on mobile
 
