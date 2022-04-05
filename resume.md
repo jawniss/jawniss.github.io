@@ -4,9 +4,9 @@ title: Resume
 permalink: /resume/
 ---
 
-<div style="margin: 0 auto; text-align: center"><font size="6"><strong>JOHNAS WONG</strong></font></div>
+<p> <div style="margin: 0 auto; text-align: center"><font size="6"><strong>JOHNAS WONG</strong></font></div> </p>
 
-<font size="4"> <b> EDUCATION </b> </font>
+<p> <font size="4"> <b> EDUCATION </b> </font> </p>
 ---
 <div id="textbox">
   <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
@@ -25,7 +25,7 @@ permalink: /resume/
 
 <br>
 
-<font size="4"><b> WORK EXPERIENCE </b></font>
+<p> <font size="4"><b> WORK EXPERIENCE </b></font> </p>
 ---
 
 <div id="textbox">
@@ -90,7 +90,7 @@ permalink: /resume/
 
 <br>
 
-<font size="4"> <b> SKILLS, EXPERTISE, AND PROJECTS</b></font>
+<p> <font size="4"> <b> SKILLS, EXPERTISE, AND PROJECTS</b></font> </p>
 ---
 Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.
 

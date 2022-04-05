@@ -55,7 +55,7 @@ input[type=submit]:hover {
 <br>
 <br>
 <br>
-<center> <h3> <font size="7"> Contact me </font> </h3> </center>
+<center> <p> <h3> <font size="7"> Contact me </font> </h3> </p> </center>
 
 <div class="container">
   <form
