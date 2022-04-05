@@ -4,9 +4,6 @@ title: About me
 permalink: /aboutme/
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script src="./script.js"></script>
-
 <!-- Not sure why the text font is different -->
   <div>
   <!-- h2 I think is header 2 -->
