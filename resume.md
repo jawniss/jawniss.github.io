@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-<p> <div style="margin: 0 auto; text-align: center"><font size="6"><strong>JOHNAS WONG</strong></font></div> </p>
+<div style="margin: 0 auto; text-align: center"><p><font size="6"><strong> JOHNAS WONG </strong></font></p></div>
 
 <p> <font size="4"> <b> EDUCATION </b> </font> </p>
 ---
