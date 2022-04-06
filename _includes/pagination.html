@@ -8,11 +8,38 @@
             {% if paginator.previous_page %}
             <center> <h3> <font size="5"> Previous page of projects </font> </h3> </center>
             <center>
-            <li>
+            <!-- <li> -->
                 <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
                 </a>
-            </li>
+            <!-- </li> -->
+
+            <script>
+
+                const options =
+                {
+                    bottom: '32px', // default: '32px'
+                    right: '32px', // default: '32px'
+                    left: 'unset', // default: 'unset'
+                    time: '0.5s', // default: '0.3s'
+                    mixColor: '#fff', // default: '#fff'
+                    // backgroundColor: '#fff',  // default: '#fff'
+                    backgroundColor: '',  // default: '#fff'
+                    buttonColorDark: '#100f2c',  // default: '#100f2c'
+                    buttonColorLight: '#fff', // default: '#fff'
+                    saveInCookies: true, // default: true,
+                    label: '🌙', // default: ''
+                    autoMatchOsTheme: true // default: true
+                }
+        
+                const darkmode = new Darkmode(options);
+        
+                // For some reason having it toggled on at the start breaks it
+                // darkmode.toggle();
+                darkmode.showWidget();
+        
+            </script>
+            
             </center>
             {% endif %}
 
