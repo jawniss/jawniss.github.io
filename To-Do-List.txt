@@ -1,8 +1,6 @@
 - Dark mode/light mode 
   - Add white outline to all the pictures
-  - Add dark mode to all other pages
   - Make header grey on dark mode
-  - Wary of widget dark mode persistance
 
 - Check how site looks on mobile
 
