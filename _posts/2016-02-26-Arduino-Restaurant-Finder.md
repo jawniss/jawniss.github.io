@@ -1,11 +1,11 @@
 ---
 layout: inner
 position: right
-title: 'Restaurant Finder'
+title: 'Arduino Restaurant Finder'
 date: 2022-01-08 00:00:00
 categories: Partner-Project Arduino
 tags: C++ Makefile
-featured_image: '/img/posts/11-Restaurant-Finder.png'
+featured_image: '/img/posts/08-Arduino-Restaurant-Finder.png'
 project_link: 'https://github.com/jawniss/CMPUT275-Winter-2019-Assign-1'
 button_icon: 'github'
 button_text: 'Source code'

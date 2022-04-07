@@ -5,7 +5,7 @@ title: 'Direct Time of Flight Imaging System'
 date: 2022-01-07 00:00:00
 categories: Team-Project Prototype
 tags: C++ VHDL
-featured_image: '/img/posts/02-DTOFIS-Capstone.png'
+featured_image: '/img/posts/07-DTOFIS.png'
 project_link: ''
 button_icon: ''
 button_text: ''

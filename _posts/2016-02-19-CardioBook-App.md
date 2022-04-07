@@ -5,7 +5,7 @@ title: 'CardioBook App'
 date: 2022-01-01 00:00:00
 categories: Individual-Project Android-Application
 tags: Android-Studio Java XML
-featured_image: '/img/posts/03-CardioBook.png'
+featured_image: '/img/posts/01-CardioBook-App.png'
 project_link: 'https://github.com/jawniss/CMPUT301-Assign-1'
 button_icon: 'github'
 button_text: 'Source code'

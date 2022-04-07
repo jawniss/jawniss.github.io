@@ -5,7 +5,7 @@ title: 'Client Server Model'
 date: 2022-01-09 00:00:00
 categories: Individual-Project Terminal-Program
 tags: C++ C Makefile
-featured_image: '/img/posts/07-Client-Server-Program.png'
+featured_image: '/img/posts/09-Client-Server-Model.png'
 project_link: 'https://github.com/jawniss/CMPUT379-Assign-3'
 button_icon: 'github'
 button_text: 'Source code'

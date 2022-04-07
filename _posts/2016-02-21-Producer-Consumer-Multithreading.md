@@ -5,7 +5,7 @@ title: 'Producer Consumer Multithreading'
 date: 2022-01-03 00:00:00
 categories: Individual-Project Terminal-Program
 tags: C++ C Makefile
-featured_image: '/img/posts/06-Producer-Consumer-Multithreading.png'
+featured_image: '/img/posts/03-Producer-Consumer-Multithreading.png'
 project_link: 'https://github.com/jawniss/CMPUT379-Assign-2'
 button_icon: 'github'
 button_text: 'Source code'

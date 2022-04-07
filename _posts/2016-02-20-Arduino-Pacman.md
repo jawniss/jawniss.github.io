@@ -5,7 +5,7 @@ title: 'Arduino Pacman'
 date: 2022-01-02 00:00:00
 categories: Partner-Project Arduino Game-Development
 tags: C++ Makefile
-featured_image: '/img/posts/10-Pacman.png'
+featured_image: '/img/posts/02-Arduino-Pacman.png'
 project_link: 'https://github.com/jawniss/CMPUT275-Winter-2019-Final-Project'
 button_icon: 'github'
 button_text: 'Source code'

@@ -1,11 +1,11 @@
 ---
 layout: inner
 position: right
-title: 'Driving App'
+title: 'Driving Service Android App'
 date: 2022-01-10 00:00:00
 categories: Team-Project Android-Application
 tags: Android-Studio Java XML
-featured_image: '/img/posts/05-Android-Studio-Google-Maps.png'
+featured_image: '/img/posts/10-Driving-Service-Android-App.png'
 project_link: 'https://github.com/CMPUT301W20T28-H02/specious-marshmellow'
 button_icon: 'github'
 button_text: 'Source code'

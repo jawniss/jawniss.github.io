@@ -5,7 +5,7 @@ title: 'Pseudo Task Manager'
 date: 2022-01-06 00:00:00
 categories: Individual-Project Hobby-Project
 tags: Makefile C++
-featured_image: '/img/posts/09-Pseudo-Task-Manager.png'
+featured_image: '/img/posts/06-Pseudo-Task-Manager.png'
 project_link: 'https://github.com/jawniss/Pseudo-Task-Manager'
 button_icon: 'github'
 button_text: 'Source code'
