@@ -120,7 +120,7 @@ input[type=submit]:hover {
   
   <div class="flex-child">
     <p> <font size="4"> Phone number (preferred) or email </font> </p>
-    <input type="text" id="number" name="Number" placeholder="What's your phone number/email?" required>
+    <input type="text" id="contact" name="Contact" placeholder="What's your phone number/email?" required>
   </div>
   
   </div>
