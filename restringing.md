@@ -16,7 +16,6 @@ I'm based in Northside Edmonton, and the Clareview Recreation Centre is the best
 I'm always happy to chat about anything badminton! <br>
 <br>
 </p>
-[Please send me a message](/contactme.md) and I'll get back to you as soon as I can.
 
 
 {% highlight txt %}
@@ -29,3 +28,235 @@ Prices:
 5  - Grip replacement (White)
 5  - Full frame grommet replacement (including flared grommets)
 {% endhighlight %}
+
+<!-- <!DOCTYPE html> -->
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  <!-- border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea; -->
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  <!-- border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea; -->
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+  <!-- border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea; -->
+}
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  <!-- border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea; -->
+  padding: 20px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+}  
+.flex-child10 {
+  flex: 10%;
+}  
+.flex-child15 {
+  flex: 15%;
+} 
+.flex-child20 {
+  flex: 20%;
+}  
+.flex-child30 {
+  flex: 30%;
+}  
+.flex-child60 {
+  flex: 60%;
+} 
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+</style>
+
+<body>
+
+<br>
+<br>
+<br>
+<hr>
+
+<center> <h3> Restringing Request </h3> </center>
+
+<br>
+
+<!-- <div class="container"> -->
+  <form
+  action="https://formspree.io/f/mzbogkkl"
+  method="POST"
+  >
+
+  <div class="flex-container">
+
+  <div class="flex-child">
+    <p> <font size="4"> Name </font> </p>
+    <input type="text" id="name" name="Name" placeholder="What's your name?" required>
+  </div>
+  
+  <div class="flex-child">
+    <p> <font size="4"> Phone number (preferred) or email </font> </p>
+    <input type="text" id="number" name="Number" placeholder="What's your phone number/email?" required>
+  </div>
+  
+  </div>
+
+
+
+
+  <div class="flex-container">
+
+  <div class="flex-child">
+    <p> <font size="4"> Racquet model </font> </p>
+    <input type="text" id="racquet" name="Racquet" placeholder="What's your racquet?">
+  </div>
+  
+  <div class="flex-child">
+    <p> <font size="4"> Tension (lbs) </font> </p>
+    <input type="text" id="Tension" name="Tension" placeholder="What tension would you like?">
+  </div>
+  
+  </div>
+
+  <!-- Table to put string options in -->
+  <table style="width:100%">
+      <colgroup>
+       <col span="1" style="width: 20%;">
+       <col span="1" style="width: 20%;">
+       <col span="1" style="width: 25%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 20%;">
+    </colgroup>
+    <tr>
+      <th><p> <font size="4"> String </font></p></th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+    <tr>
+      <td><p> <input type="radio" id="BG65" name="String" value="BG65">
+        <label for="BG65">BG65</label> </p></td>
+      <td><p> <font size="4"> 25 </font></p></td>
+      <td><p> <input type="radio" id="Exbolt 63" name="String" value="Exbolt 63">
+        <label for="Exbolt 63">Exbolt 63</label> </p></td>
+      <td><p> <font size="4"> 30 </font></p></td>
+      <td><p> <input type="radio" id="Not sure" name="String" value="Not sure">
+        <label for="Not sure">Not sure</label> </p></td>
+    </tr>
+    <tr>
+      <td><p> <input type="radio" id="BG80" name="String" value="BG80">
+        <label for="BG80">BG80</label> </p></td>
+      <td><p> <font size="4"> 27 </font></p></td>
+      <td><p> <input type="radio" id="Your strings" name="String" value="Your strings">
+        <label for="Your strings">Your strings</label> </p></td>
+      <td><p> <font size="4"> 15 </font></p></td>
+      <td> &nbsp; </td>
+    </tr>
+  </table>
+
+
+  <!-- <div class="flex-container">
+
+  <div class="flex-child">
+    <p> <font size="4"> String </font> </p>
+    <p> <input type="radio" id="BG65" name="String" value="BG65">
+    <label for="BG65">BG65</label> <br>
+    <input type="radio" id="BG80" name="String" value="BG80">
+    <label for="BG80">BG80</label> </p>
+  </div>
+
+  <div class="flex-child">
+    <p> <font size="4"> &nbsp; </font> </p>
+    <p> <font size="4"> 25 </font> <br>
+    <font size="4"> 27 </font> </p>
+  </div>
+  
+  <div class="flex-child">
+    <p> <font size="4"> &nbsp; </font> </p>
+    <p> <input type="radio" id="Exbolt 63" name="String" value="Exbolt 63">
+    <label for="Exbolt 63">Exbolt 63</label> <br>
+    <input type="radio" id="Your string" name="String" value="Your string">
+    <label for="Your string">Your string</label> </p>
+  </div>
+
+  <div class="flex-child">
+    <p> <font size="4"> &nbsp; </font> </p>
+    <p> <font size="4"> 30 </font> <br>
+    <font size="4"> 15 </font> </p>
+  </div>
+
+  <div class="flex-child">
+    <p> <font size="4"> &nbsp; </font> </p>
+    <p> <input type="radio" id="Not sure" name="String" value="Not sure">
+    <label for="Not sure">Not sure</label> </p>
+  </div>
+
+  
+  </div> -->
+
+
+
+
+
+  <br>
+  <br>
+
+  <div class="flex-container">
+
+  <div class="flex-child">
+    <center>
+    <p> <font size="4"> Regrip &nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp; </font>
+    <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
+    </center>
+  </div>
+  
+  <div class="flex-child">
+    <center>
+    <p> <font size="4"> Grommet replacement &nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp; </font>
+    <input type="checkbox" name="Grommets" placeholder="Would you like your grommets replaced?" id="grommets"> </p>
+    </center>
+  </div>
+  
+  </div>
+
+  <br>
+
+  <!-- <label for="comments">Other comments</label> -->
+  <p> <font size="4"> Other comments </font> </p>
+  <textarea id="comments" name="Comments" placeholder="Anything else?" style="height:200px"></textarea>
+
+  <br>
+
+  <span class="darkmode-ignore">
+    <input type="submit" value="Send">
+  </span>
+  </form>
+<!-- </div> -->
+
+</body>
+</html>

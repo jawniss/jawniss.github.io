@@ -1,5 +1,4 @@
 - Dark mode/light mode 
-  - Add white outline to all the pictures
   - Make header grey on dark mode
 
 - Check how site looks on mobile
@@ -8,3 +7,6 @@
   - Something with border on the contact form container?
 
 - Find and change button icons
+
+- Try to outsource form inputs to excel sheet to eliminate third party program
+- Try to remove border. I'm thinking container border right border left?
