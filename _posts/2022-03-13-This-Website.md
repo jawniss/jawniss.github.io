@@ -5,7 +5,7 @@ title: 'This website!'
 date: 2022-03-13 00:00:00
 categories: Individual-Project Web-Development
 tags: HTML Javascript Markdown
-featured_image: '/img/posts/12-My-Website.png'
+featured_image: '/img/posts/12-This-Website.png'
 project_link: ''
 button_icon: ''
 button_text: ''
