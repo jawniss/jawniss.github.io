@@ -92,7 +92,7 @@ permalink: /resume/
 
 <p> <font size="4"> <b> SKILLS, EXPERTISE, AND PROJECTS</b></font> </p>
 ---
-Experienced in C, C++, Golang, Java, JavaScript, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.
+Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.
 
 <div id="textbox">
   <p class="alignleft"><b>Direct Time of Flight Imaging System (LiDAR)</b> | <font size="3"><i>Team Capstone</i> | <i>C++</i></font></p>
