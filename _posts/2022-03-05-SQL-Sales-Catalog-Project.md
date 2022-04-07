@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'SQL Sales Catalog'
-date: 2022-01-04 00:00:00
+date: 2022-03-05 00:00:00
 categories: Team-Project Database-Handler
 tags: Database Python SQL 
 featured_image: '/img/posts/04-SQL-Sales-Catalog.png'

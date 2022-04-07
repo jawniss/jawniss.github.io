@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'CardioBook App'
-date: 2022-01-01 00:00:00
+date: 2022-03-02 00:00:00
 categories: Individual-Project Android-Application
 tags: Android-Studio Java XML
 featured_image: '/img/posts/01-CardioBook-App.png'

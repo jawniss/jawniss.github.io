@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'Arduino Pacman'
-date: 2022-01-02 00:00:00
+date: 2022-03-03 00:00:00
 categories: Partner-Project Arduino Game-Development
 tags: C++ Makefile
 featured_image: '/img/posts/02-Arduino-Pacman.png'

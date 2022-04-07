@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'Profile Picture App'
-date: 2022-01-05 00:00:00
+date: 2022-03-06 00:00:00
 categories: Individual-Project Android-Application
 tags: Android-Studio Firebase-Real-Time-Database Java XML
 featured_image: '/img/posts/05-Profile-Picture-App.png'

@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'Arduino Restaurant Finder'
-date: 2022-01-08 00:00:00
+date: 2022-03-09 00:00:00
 categories: Partner-Project Arduino
 tags: C++ Makefile
 featured_image: '/img/posts/08-Arduino-Restaurant-Finder.png'
