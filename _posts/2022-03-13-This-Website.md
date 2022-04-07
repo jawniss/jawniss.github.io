@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: right
-title: 'My website'
+title: 'This website!'
 date: 2022-03-13 00:00:00
 categories: Individual-Project Web-Development
 tags: HTML Javascript Markdown
