@@ -17,16 +17,18 @@ I'm always happy to chat about anything badminton! <br>
 <br>
 </p>
 
-
 {% highlight txt %}
 Prices:
 
-15 - Bring your own strings
+20 - Bring your own strings
 25 - BG65
 27 - BG80
 30 - Exbolt 63
+
 5  - Grip replacement (White)
-5  - Full frame grommet replacement (including flared grommets)
+5  - All single thread grommets replacement
+5  - All shared grommets replacement
+10 - Full frame grommet replacement
 {% endhighlight %}
 
 <!-- <!DOCTYPE html> -->
@@ -174,54 +176,10 @@ input[type=submit]:hover {
       <td><p> <font size="4"> 27 </font></p></td>
       <td><p> <input type="radio" id="Your strings" name="String" value="Your strings">
         <label for="Your strings">Your strings</label> </p></td>
-      <td><p> <font size="4"> 15 </font></p></td>
+      <td><p> <font size="4"> 20 </font></p></td>
       <td> &nbsp; </td>
     </tr>
   </table>
-
-
-  <!-- <div class="flex-container">
-
-  <div class="flex-child">
-    <p> <font size="4"> String </font> </p>
-    <p> <input type="radio" id="BG65" name="String" value="BG65">
-    <label for="BG65">BG65</label> <br>
-    <input type="radio" id="BG80" name="String" value="BG80">
-    <label for="BG80">BG80</label> </p>
-  </div>
-
-  <div class="flex-child">
-    <p> <font size="4"> &nbsp; </font> </p>
-    <p> <font size="4"> 25 </font> <br>
-    <font size="4"> 27 </font> </p>
-  </div>
-  
-  <div class="flex-child">
-    <p> <font size="4"> &nbsp; </font> </p>
-    <p> <input type="radio" id="Exbolt 63" name="String" value="Exbolt 63">
-    <label for="Exbolt 63">Exbolt 63</label> <br>
-    <input type="radio" id="Your string" name="String" value="Your string">
-    <label for="Your string">Your string</label> </p>
-  </div>
-
-  <div class="flex-child">
-    <p> <font size="4"> &nbsp; </font> </p>
-    <p> <font size="4"> 30 </font> <br>
-    <font size="4"> 15 </font> </p>
-  </div>
-
-  <div class="flex-child">
-    <p> <font size="4"> &nbsp; </font> </p>
-    <p> <input type="radio" id="Not sure" name="String" value="Not sure">
-    <label for="Not sure">Not sure</label> </p>
-  </div>
-
-  
-  </div> -->
-
-
-
-
 
   <br>
   <br>
@@ -237,7 +195,7 @@ input[type=submit]:hover {
   
   <div class="flex-child">
     <center>
-    <p> <font size="4"> Grommet replacement &nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp; </font>
+    <p> <font size="4"> Grommet replacement &nbsp;&nbsp;&nbsp; 5 - 10 &nbsp;&nbsp;&nbsp; </font>
     <input type="checkbox" name="Grommets" placeholder="Would you like your grommets replaced?" id="grommets"> </p>
     </center>
   </div>
