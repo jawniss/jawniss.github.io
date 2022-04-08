@@ -18,10 +18,7 @@ permalink: /aboutme/
 > <div align=justify> <p> <font size="4"> Currently I am working as a teaching assistant for Dr. Sturtevant for his CMPUT 250 Game Development course. This is my second consecutive term serving as a teaching assistant for this course. </font> </p> </div>
 <br>
 
-
 ---
----
-
 
 ## My hobbies
 
@@ -45,7 +42,6 @@ permalink: /aboutme/
 
 <div align=justify> <p> <font size="4"> I've grown a big affinity to cooking, especially since the start of the pandemic in 2020. I began cooking everyday with my mum, helping make every dinner for the rest of the family. What began simply as a way to help alleviate my mom's workload became an interest, where now I'm trying to learn all my mother's cooking knowledge. Soon I hope to be cooking for her! </font></p></div>
 
----
 ---
 
 ### Credits
