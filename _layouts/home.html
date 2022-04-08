@@ -7,16 +7,17 @@
         <div class="row">
           <div class="col-md-12">
 
-            {% if site.section_title != '' %}
+            <!-- {% if site.section_title != '' %}
             <h2 class="section-title text-center">{{ site.section_title }}</h2>
             {% endif %}
             {% if site.section_subtitle != '' %}
             <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
-            {% endif %}
+            {% endif %} -->
 
-            <h2> Projects </h2>
+            <h2 class="section-title text-center"> Projects </h2>
+            <p class="section-subtitle text-center"> Check out what I've worked on! </p>
+
             <div class="break"></div>
-            <p> Check out what I've worked on! </p>
 
             {% for post in paginator.posts %}
               <div class="wow fadeIn">
