@@ -44,11 +44,14 @@
             {% endif %}
 
             {% if paginator.page_trail %}
-            {% for trail in paginator.page_trail %}
-                <li {% if page.url == trail.path %}class="active"{% endif %}>
-                    <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
-                </li>
-            {% endfor %}
+            <center> <h3> <font size="5"> Page trail </font> </h3> </center>
+            <center>
+                {% for trail in paginator.page_trail %}
+                    <li {% if page.url == trail.path %}class="active"{% endif %}>
+                        <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                    </li>
+                {% endfor %}
+            </center>
             {% endif %}
 
             {% if paginator.next_page %}
