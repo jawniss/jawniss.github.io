@@ -50,11 +50,10 @@ permalink: /aboutme/
 
 ### Credits
 
-<div align=justify> <p> This website was created based on Jami Gibbs' template found at http://jamigibbs.github.io/phantom/. 
-This template was used under the MIT license. </p>
+<div align=justify> <p> This website was created based on Jami Gibbs' template found at <a href="http://jamigibbs.github.io/phantom/">jamigibbs.github.io/phantom/</a>. This template was used under the MIT license. </p>
 
 <br>
 <br>
 
-<p> The open source darkmode widget can be found at https://darkmodejs.learn.uno.</p>
+<p> The open source darkmode widget can be found at <a href="https://darkmodejs.learn.uno">darkmodejs.learn.uno</a>.</p>
 </div> 

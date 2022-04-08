@@ -13,3 +13,8 @@
 - Find way to make jump to page number thing, pagination
 
 - Try to animation
+
+- Links in about me credits aren't actually linked
+- Could try to download the darkmode plugin to ensure forever works
+
+- Could change dark mode icon to 💡
