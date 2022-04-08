@@ -9,7 +9,7 @@
 - Find and change button icons
 
 - Try to outsource form inputs to excel sheet to eliminate third party program
-- Try to remove border. I'm thinking container border right border left?
 
-- Make next and prev project page buttons side by side
-- Find way to make jump to page number thing, I think that's what page trail means?
+- Find way to make jump to page number thing, pagination
+
+- Try to animation
