@@ -2,14 +2,20 @@
 
 <table style="width:100%">
     <colgroup>
-        <col span="1" style="width: 45%;">
-        <col span="1" style="width: 10%;">
-        <col span="1" style="width: 45%;">
+        <col span="1" style="width: 20%;">
+        <col span="1" style="width: 20%;">
+        <col span="1" style="width: 20%;">
+        <col span="1" style="width: 20%;">
+        <col span="1" style="width: 20%;">
     </colgroup>
 <center>
     <nav class="pagination-wrap">
         <ul class="pagination">
                 <tr>
+                    <!-- Filler column -->
+                    <th>
+                        &nbsp;
+                    </th>
                     <th>
                         {% if paginator.previous_page %}
                             <center> <h3> <font size="5"> Previous page </font> </h3> </center>
@@ -100,6 +106,12 @@
                             </center>
                         {% endif %}
 
+                        
+                    </th>
+
+                    <!-- Filler column -->
+                    <th>
+                        &nbsp;
                     </th>
                 </tr>
             </table>
