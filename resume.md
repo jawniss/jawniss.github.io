@@ -158,6 +158,10 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 
 <div style="clear: both;"></div>
 
+<br>
+
+<p>
 <font size="2"> 
-  <sup>1</sup> Where Shadows Lie can be played at <a href="https://https://jordon-ogo.github.io">https://jordon-ogo.github.io</a>.
+  <sup>1</sup> Where Shadows Lie can be played at <a href="https://jordon-ogo.github.io">jordon-ogo.github.io</a>.
 </font>
+</p>
