@@ -127,7 +127,7 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 <div style="clear: both;"></div>
 
 <div id="textbox">
-  <p class="alignleft"><b>Client-Server Architecture<sup>1</sup></b> | <font size="3"><i>Individual</i></font> | <font size="3"><i>C++</i></font></p>
+  <p class="alignleft"><b>Client-Server Architecture</b> | <font size="3"><i>Individual</i></font> | <font size="3"><i>C++</i></font></p>
   <p class="alignright"><font size="3">Jan 2020 - Apr 2020</font></p>
 </div>
 
@@ -142,7 +142,7 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 <div style="clear: both;"></div>
 
 <div id="textbox">
-  <p class="alignleft"><b>Specious Marshellow<sup>1</sup></b> | <font size="3"><i>Team Project</i></font> | <font size="3"><i>Android Studio, XML, Java</i></font></p>
+  <p class="alignleft"><b>Specious Marshellow</b> | <font size="3"><i>Team Project</i></font> | <font size="3"><i>Android Studio, XML, Java</i></font></p>
   <p class="alignright"><font size="3">Jan 2020 - Apr 2020</font></p>
 </div>
 
@@ -158,4 +158,6 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 
 <div style="clear: both;"></div>
 
-<br>
+<font size="2"> 
+  <sup>1</sup> Where Shadows Lie can be played at <a href="https://https://jordon-ogo.github.io">https://jordon-ogo.github.io</a>.
+</font>
