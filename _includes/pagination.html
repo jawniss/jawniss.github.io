@@ -60,10 +60,29 @@
                             <center>
                                 <div class="pagination">
                                     <!-- <a href="#" class="active">2</a> -->
+                                    <p id="page1">
+                                        <a href="https://jawniss.github.io/#portfolio">1</a>
+                                    </p>
 
-                                    <a href="https://jawniss.github.io/#portfolio">1</a>
-                                    <a href="https://jawniss.github.io/page2/#portfolio">2</a>
-                                    <a href="https://jawniss.github.io/page3/#portfolio">3</a>
+                                    <p id="page2">
+                                        <a href="https://jawniss.github.io/page2/#portfolio">2</a>
+                                    </p>
+
+                                    <p id="page3">
+                                        <a href="https://jawniss.github.io/page3/#portfolio">3</a>
+                                    </p>
+                                    
+                                    <script>
+                                        if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" )
+                                        {
+                                            document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
+                                        } else if ( window.location.href == "https://jawniss.github.io/page2/#portfolio" ) {
+                                            document.getElementById("page2").innerHTML = <a href="https://jawniss.github.io/page2/#portfolio" class="active">2</a>;
+                                        } else if ( window.location.href == "https://jawniss.github.io/page3/#portfolio" ) {
+                                            document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
+                                        }
+                                    </script>
+                                    
                                 </div>
                             </center>
                     </th>
