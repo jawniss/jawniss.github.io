@@ -19,3 +19,5 @@
 - https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js looks like just a text doc, maybe I could 
   extract that to a js file and save it locally, so it's always there? And instead of src=link I can do src=.js
   script that's saved locally
+
+- Change dark mode link colour
