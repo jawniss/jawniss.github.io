@@ -18,16 +18,11 @@
                     </th>
                     <th>
                         {% if paginator.previous_page %}
-                            <!-- <center> <h3> <font size="5"> Previous page </font> </h3> </center> -->
+                            <center> <h3> <font size="5"> Previous page </font> </h3> </center>
                             <center>
-                                <!-- <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolioBefore" aria-label="Previous">
+                                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolioBefore" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
-                                </a> -->
-
-                                <div class="pagination">
-                                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolioBefore" aria-label="Previous">&laquo;</a>
-                                </div>
-
+                                </a>
                                 <!-- Darkmode widget -->
                                 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
                                 <script src="./script.js"></script>
@@ -62,27 +57,25 @@
                     </th>
 
                     <th>
-                            <!-- <center> <h3> <font size="5"> Page trail </font> </h3> </center> -->
+                        {% if paginator.page_trail %}
+                            <center> <h3> <font size="5"> Page trail </font> </h3> </center>
                             <center>
-                                <div class="pagination">
-                                    <a href="#">1</a>
-                                    <a href="#" class="active">2</a>
-                                    <a href="#">3</a>
-                                </div>
+                                {% for trail in paginator.page_trail %}
+                                    <li {% if page.url == trail.path %}class="active"{% endif %}>
+                                        <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                                    </li>
+                                {% endfor %}
                             </center>
+                        {% endif %}
                     </th>
 
                     <th>
                         {% if paginator.next_page %}
-                            <!-- <center> <h3> <font size="5"> Next page </font> </h3> </center> -->
+                            <center> <h3> <font size="5"> Next page </font> </h3> </center>
                             <center>
-                                <!-- <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolioBefore" aria-label="Next">
+                                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolioBefore" aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
-                                </a> -->
-
-                                <div class="pagination">
-                                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolioBefore" aria-label="Next">&raquo;</a>
-                                </div>
+                                </a>
 
                                 <!-- Darkmode widget -->
                                 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
