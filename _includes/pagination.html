@@ -1,11 +1,5 @@
 {% if paginator.total_pages > 1 %}
 
-<style>
-    table, th, td {
-      border: 1px solid black;
-    }
-</style>
-
 <table style="width:100%">
     <colgroup>
         <col span="1" style="width: 20%;">
@@ -22,9 +16,9 @@
                     <th>
                         &nbsp;
                     </th>
-                    <th>
+                    <th style="text-align: right;">
                         {% if paginator.previous_page %}
-                            <div class="pagination" style="text-align: right">
+                            <div class="pagination">
                                 <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                 </a>
@@ -74,41 +68,40 @@
                             </center>
                     </th>
 
-                    <th>
+                    <th style="text-align: left">
                         {% if paginator.next_page %}
+                            <div class="pagination">
+                                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </div>
 
-                                <div class="pagination" style="text-align: left">
-                                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </div>
+                            <!-- Darkmode widget -->
+                            <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+                            <script src="./script.js"></script>
 
-                                <!-- Darkmode widget -->
-                                <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-                                <script src="./script.js"></script>
-
-                                <script>            
-                                    const options =
-                                    {
-                                        bottom: '32px', // default: '32px'
-                                        right: '32px', // default: '32px'
-                                        left: 'unset', // default: 'unset'
-                                        time: '0.5s', // default: '0.3s'
-                                        mixColor: '#fff', // default: '#fff'
-                                        // backgroundColor: '#fff',  // default: '#fff'
-                                        backgroundColor: '',  // default: '#fff'
-                                        buttonColorDark: '#100f2c',  // default: '#100f2c'
-                                        buttonColorLight: '#fff', // default: '#fff'
-                                        saveInCookies: true, // default: true,
-                                        label: '💡', // default: ''
-                                        autoMatchOsTheme: true // default: true
-                                    }
-                            
-                                    const darkmode = new Darkmode(options);
-                                    // darkmode.toggle();
-                                    darkmode.showWidget();
-                            
-                                </script>
+                            <script>            
+                                const options =
+                                {
+                                    bottom: '32px', // default: '32px'
+                                    right: '32px', // default: '32px'
+                                    left: 'unset', // default: 'unset'
+                                    time: '0.5s', // default: '0.3s'
+                                    mixColor: '#fff', // default: '#fff'
+                                    // backgroundColor: '#fff',  // default: '#fff'
+                                    backgroundColor: '',  // default: '#fff'
+                                    buttonColorDark: '#100f2c',  // default: '#100f2c'
+                                    buttonColorLight: '#fff', // default: '#fff'
+                                    saveInCookies: true, // default: true,
+                                    label: '💡', // default: ''
+                                    autoMatchOsTheme: true // default: true
+                                }
+                        
+                                const darkmode = new Darkmode(options);
+                                // darkmode.toggle();
+                                darkmode.showWidget();
+                        
+                            </script>
                         {% endif %}
                     </th>
 
