@@ -24,48 +24,41 @@
                     </th>
                     <th>
                         {% if paginator.previous_page %}
-                            <!-- <center> <h3> <font size="5"> Previous page </font> </h3> </center> -->
-                            <center>
-                                <!-- <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
+                            <div class="pagination" style="text-align: right">
+                                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
-                                </a> -->
+                                </a>
+                            </div>
 
-                                <div class="pagination" style="text-align: right">
-                                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </div>
+                            <!-- Darkmode widget -->
+                            <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+                            <script src="./script.js"></script>
 
-                                <!-- Darkmode widget -->
-                                <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-                                <script src="./script.js"></script>
+                            <script>
 
-                                <script>
-
-                                    const options =
-                                    {
-                                        bottom: '32px', // default: '32px'
-                                        right: '32px', // default: '32px'
-                                        left: 'unset', // default: 'unset'
-                                        time: '0.5s', // default: '0.3s'
-                                        mixColor: '#fff', // default: '#fff'
-                                        // backgroundColor: '#fff',  // default: '#fff'
-                                        backgroundColor: '',  // default: '#fff'
-                                        buttonColorDark: '#100f2c',  // default: '#100f2c'
-                                        buttonColorLight: '#fff', // default: '#fff'
-                                        saveInCookies: true, // default: true,
-                                        label: '💡', // default: ''
-                                        autoMatchOsTheme: true // default: true
-                                    }
-                            
-                                    const darkmode = new Darkmode(options);
-                            
-                                    // For some reason having it toggled on at the start breaks it
-                                    // darkmode.toggle();
-                                    darkmode.showWidget();
-                            
-                                </script>
-                            </center>
+                                const options =
+                                {
+                                    bottom: '32px', // default: '32px'
+                                    right: '32px', // default: '32px'
+                                    left: 'unset', // default: 'unset'
+                                    time: '0.5s', // default: '0.3s'
+                                    mixColor: '#fff', // default: '#fff'
+                                    // backgroundColor: '#fff',  // default: '#fff'
+                                    backgroundColor: '',  // default: '#fff'
+                                    buttonColorDark: '#100f2c',  // default: '#100f2c'
+                                    buttonColorLight: '#fff', // default: '#fff'
+                                    saveInCookies: true, // default: true,
+                                    label: '💡', // default: ''
+                                    autoMatchOsTheme: true // default: true
+                                }
+                        
+                                const darkmode = new Darkmode(options);
+                        
+                                // For some reason having it toggled on at the start breaks it
+                                // darkmode.toggle();
+                                darkmode.showWidget();
+                        
+                            </script>
                         {% endif %}
                     </th>
 
@@ -83,11 +76,6 @@
 
                     <th>
                         {% if paginator.next_page %}
-                            <!-- <center> <h3> <font size="5"> Next page </font> </h3> </center> -->
-                            <center>
-                                <!-- <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a> -->
 
                                 <div class="pagination" style="text-align: left">
                                     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">
@@ -121,10 +109,7 @@
                                     darkmode.showWidget();
                             
                                 </script>
-                            </center>
                         {% endif %}
-
-                        
                     </th>
 
                     <!-- Filler column -->
