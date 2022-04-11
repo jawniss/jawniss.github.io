@@ -24,8 +24,10 @@
                                     <span aria-hidden="true">&laquo;</span>
                                 </a> -->
 
-                                <div class="pagination">
-                                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">&laquo;</a>
+                                <div class="pagination" style="text-align: right">
+                                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
                                 </div>
 
                                 <!-- Darkmode widget -->
@@ -62,12 +64,13 @@
                     </th>
 
                     <th>
-                            <!-- <center> <h3> <font size="5"> Page trail </font> </h3> </center> -->
                             <center>
                                 <div class="pagination">
-                                    <a href="#">1</a>
-                                    <a href="#" class="active">2</a>
-                                    <a href="#">3</a>
+                                    <!-- <a href="#" class="active">2</a> -->
+
+                                    <a href="https://jawniss.github.io/#portfolio">1</a>
+                                    <a href="https://jawniss.github.io/page2/#portfolio">2</a>
+                                    <a href="https://jawniss.github.io/page3/#portfolio">3</a>
                                 </div>
                             </center>
                     </th>
@@ -80,8 +83,10 @@
                                     <span aria-hidden="true">&raquo;</span>
                                 </a> -->
 
-                                <div class="pagination">
-                                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">&raquo;</a>
+                                <div class="pagination" style="text-align: left">
+                                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
                                 </div>
 
                                 <!-- Darkmode widget -->
