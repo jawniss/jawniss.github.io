@@ -20,14 +20,15 @@ I'm always happy to chat about anything badminton! <br>
 {% highlight txt %}
 Prices:
 
-20 - Bring your own strings
+All prices include labour
+20 - If you bring your own strings (only labour)
 25 - BG65
 27 - BG80
 30 - Exbolt 63
 
+Miscellaneous
 5  - Grip replacement (White)
-5  - All single thread grommets replacement
-5  - All shared grommets replacement
+5  - Only badly damaged grommets replacement
 10 - Full frame grommet replacement
 {% endhighlight %}
 
@@ -195,8 +196,15 @@ input[type=submit]:hover {
   
   <div class="flex-child">
     <center>
-    <p> <font size="4"> Grommet replacement &nbsp;&nbsp;&nbsp; 5 - 10 &nbsp;&nbsp;&nbsp; </font>
-    <input type="checkbox" name="Grommets" placeholder="Would you like your grommets replaced?" id="grommets"> </p>
+    <p> <font size="4"> Damaged grommets replacement &nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp; </font>
+    <input type="checkbox" name="Damaged Grommets" placeholder="Would you like your grommets replaced?" id="damagedgrommets"> </p>
+    </center>
+  </div>
+
+  <div class="flex-child">
+    <center>
+    <p> <font size="4"> Full frame grommet replacement &nbsp;&nbsp;&nbsp; 10 &nbsp;&nbsp;&nbsp; </font>
+    <input type="checkbox" name="All Grommets" placeholder="Would you like your grommets replaced?" id="allgrommets"> </p>
     </center>
   </div>
   

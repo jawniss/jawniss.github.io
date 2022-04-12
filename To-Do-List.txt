@@ -10,8 +10,6 @@
 
 - Try to outsource form inputs to excel sheet to eliminate third party program
 
-- Find way to make jump to page number thing, pagination
-
 - Try to animation
 
 - Add website traffic analytics/tracker just for fun
@@ -20,4 +18,6 @@
   extract that to a js file and save it locally, so it's always there? And instead of src=link I can do src=.js
   script that's saved locally
 
-- Change dark mode link colour
+- Add header pagination
+
+- Try to change side bars to like space background image or something cool
