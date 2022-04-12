@@ -184,7 +184,6 @@ input[type=submit]:hover {
   </table>
 
   <br>
-  <br>
 
   <p> <font size="4"> Miscellaneous </font></p>
 
@@ -192,7 +191,7 @@ input[type=submit]:hover {
 
   <div class="flex-child">
     <center>
-    <p> <font size="4"> Regrip <br> 5 &nbsp;&nbsp;&nbsp; </font>
+    <p> <font size="4"> Regrip <br><br> 5 &nbsp;&nbsp;&nbsp; </font>
     <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
     </center>
   </div>
