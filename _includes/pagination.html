@@ -20,7 +20,7 @@
                         {% if paginator.previous_page %}
                             <div class="pagination">
                                 <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
+                                    <span aria-hidden="true">&lt;</span>
                                 </a>
                             </div>
 
@@ -86,7 +86,7 @@
                         {% if paginator.next_page %}
                             <div class="pagination">
                                 <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
+                                    <span aria-hidden="true">&gt;</span>
                                 </a>
                             </div>
 

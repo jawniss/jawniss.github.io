@@ -32,6 +32,7 @@ $secondary: #FF7B7B;
   }
 }
 
+// Big side bars left and right
 body {
   background-color: #e9edf0;
   @extend %opensans;
@@ -101,7 +102,7 @@ button.btn, input.btn {
 .section-jump {
   position: relative;
   top: 0;
-  color: #C8D7E1;
+  // color: #C8D7E1;
   margin: 0 auto;
   display: table;
   @include transition(top .2s ease-in);
@@ -478,7 +479,8 @@ pre {
 }
 
 .pagination a.active {
-  background-color: #4CAF50;
+  // Active button background colour
+  background-color: #337ab7;
   color: white;
   border-radius: 5px;
 }
