@@ -145,6 +145,7 @@ input[type=submit]:hover {
   
   </div>
 
+  <p> <font size="4"> String </font></p>
   <!-- Table to put string options in -->
   <table style="width:100%">
       <colgroup>
@@ -154,13 +155,13 @@ input[type=submit]:hover {
        <col span="1" style="width: 15%;">
        <col span="1" style="width: 20%;">
     </colgroup>
-    <tr>
+    <!-- <tr>
       <th><p> <font size="4"> String </font></p></th>
       <th>&nbsp;</th>
       <th>&nbsp;</th>
       <th>&nbsp;</th>
       <th>&nbsp;</th>
-    </tr>
+    </tr> -->
     <tr>
       <td><p> <input type="radio" id="BG65" name="String" value="BG65">
         <label for="BG65">BG65</label> </p></td>
@@ -185,25 +186,27 @@ input[type=submit]:hover {
   <br>
   <br>
 
+  <p> <font size="4"> Miscellaneous </font></p>
+
   <div class="flex-container">
 
   <div class="flex-child">
     <center>
-    <p> <font size="4"> Regrip &nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp; </font>
+    <p> <font size="4"> Regrip <br> 5 &nbsp;&nbsp;&nbsp; </font>
     <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
     </center>
   </div>
   
   <div class="flex-child">
     <center>
-    <p> <font size="4"> Damaged grommets replacement &nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp; </font>
+    <p> <font size="4"> Damaged grommets replacement <br> 5 &nbsp;&nbsp;&nbsp; </font>
     <input type="checkbox" name="Damaged Grommets" placeholder="Would you like your grommets replaced?" id="damagedgrommets"> </p>
     </center>
   </div>
 
   <div class="flex-child">
     <center>
-    <p> <font size="4"> Full frame grommet replacement &nbsp;&nbsp;&nbsp; 10 &nbsp;&nbsp;&nbsp; </font>
+    <p> <font size="4"> Full frame grommet replacement <br> 10 &nbsp;&nbsp;&nbsp; </font>
     <input type="checkbox" name="All Grommets" placeholder="Would you like your grommets replaced?" id="allgrommets"> </p>
     </center>
   </div>
