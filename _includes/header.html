@@ -43,14 +43,36 @@
               </button>
               <a class="navbar-brand" href="/">{{ site.admin_name }}</a>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+          <!-- <div id="navbar" class="navbar-collapse collapse"> -->
+          <div id="navbar" class="navPagination">
+            <!-- <ul class="nav navbar-nav navbar-right"> -->
               {% for item in site.nav_item %}
-                <li>
-                  <a href="{{ item.url }}">{{ item.text }}</a>
-                </li>
+                <!-- <li> -->
+                  <a id="{{ item.text }}" href="{{ item.url }}">{{ item.text }}</a>
+                <!-- </li> -->
               {% endfor %}
-            </ul>
+
+              <script>
+                if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" )
+                {
+                    // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
+                    document.getElementById("Home").className += "active";
+                } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
+                    // document.getElementById("page2").innerHTML = <a href="https://jawniss.github.io/page2/#portfolio" class="active">2</a>;
+                    document.getElementById("Restringing (badminton)").className += "active";
+                } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
+                    // document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
+                    document.getElementById("Resume").className += "active";
+                } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
+                    // document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
+                    document.getElementById("About me").className += "active";
+                } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
+                    // document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
+                    document.getElementById("Contact me").className += "active";
+                }
+              </script>
+
+            <!-- </ul> -->
           </div>
       </div>
   </nav>

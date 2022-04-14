@@ -489,3 +489,31 @@ pre {
   background-color: #ddd;
   isolation: isolate;
 }
+
+.navPagination {
+  display: inline-block;
+}
+
+.navPagination a {
+  float: right;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  // Two args, first is top/bot second left/right
+  margin: 0 6px;
+  // Makes rounded corners
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.navPagination a.active {
+  // Active button background colour
+  background-color: #337ab7;
+  color: white;
+  border-radius: 5px;
+}
+
+.navPagination a:hover:not(.active) {
+  background-color: #ddd;
+  isolation: isolate;
+}
