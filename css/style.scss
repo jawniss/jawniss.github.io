@@ -496,6 +496,7 @@ pre {
 }
 
 .navPagination a {
+  color: #337ab7 !important;
   float: right;
   padding: 16px 16px;
   text-decoration: none;
@@ -510,7 +511,7 @@ pre {
 .navPagination a.active {
   // Active button background colour
   background-color: #337ab7;
-  color: white;
+  color: white !important;
   border-radius: 5px;
 }
 
