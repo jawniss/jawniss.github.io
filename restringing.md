@@ -20,7 +20,7 @@ I'm always happy to chat about anything badminton! <br>
 {% highlight txt %}
 Prices:
 
-All prices include labour
+All prices include labour and are non-negotiable
 20 - If you bring your own strings (only labour)
 25 - BG65
 27 - BG80
