@@ -104,8 +104,15 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/restringing', text: 'Restringing (badminton)' }
-  - { url: '/resume', text: 'Resume' }
-  - { url: '/aboutme', text: 'About me' }
+  # - { url: '/', text: 'Home' }
+  # - { url: '/restringing', text: 'Restringing (badminton)' }
+  # - { url: '/resume', text: 'Resume' }
+  # - { url: '/aboutme', text: 'About me' }
+  # - { url: '/contactme', text: 'Contact me' }
+
   - { url: '/contactme', text: 'Contact me' }
+  - { url: '/aboutme', text: 'About me' }
+  - { url: '/resume', text: 'Resume' }
+  - { url: '/restringing', text: 'Restringing (badminton)' }
+  - { url: '/', text: 'Home' }
+
