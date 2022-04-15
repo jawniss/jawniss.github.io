@@ -220,9 +220,7 @@ input[type=submit]:hover {
 
   <br>
 
-  <span class="darkmode-ignore">
     <input type="submit" value="Send">
-  </span>
   </form>
 <!-- </div> -->
 

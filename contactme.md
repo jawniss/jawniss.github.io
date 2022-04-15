@@ -73,9 +73,7 @@ permalink: /contactme/
   <p> <font size="4"> Message </font> </p>
     <textarea id="message" name="Message" placeholder="Write me a message!" style="height:200px" required></textarea>
 
-  <span class="darkmode-ignore">
     <input type="submit" value="Send">
-  </span>
   </form>
 
   <!-- </body> -->

@@ -1,12 +1,7 @@
-- Dark mode/light mode 
-  - Make header grey on dark mode
-
 - Check how site looks on mobile
 
 - The contact page box is no border on the right cus the input box area is just a bit bigger than border perimeter
   - Something with border on the contact form container?
-
-- Find and change button icons
 
 - Try to outsource form inputs to excel sheet to eliminate third party program
 
@@ -14,10 +9,4 @@
 
 - Add website traffic analytics/tracker just for fun
 
-- https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js looks like just a text doc, maybe I could 
-  extract that to a js file and save it locally, so it's always there? And instead of src=link I can do src=.js
-  script that's saved locally
-
-- Add header pagination
-
-- Try to change side bars to like space background image or something cool
+- Make background image change on dark mode toggle
