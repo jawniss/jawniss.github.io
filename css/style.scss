@@ -34,7 +34,10 @@ $secondary: #FF7B7B;
 
 // Big side bars left and right
 body {
-  background-color: #e9edf0;
+  // background-color: #e9edf0;
+  background-image: url( /img/Background-Image-Light.png );
+  background-repeat: no-repeat;
+  background-size: cover;
   @extend %opensans;
   -webkit-font-smoothing: antialiased;
 }
