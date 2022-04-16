@@ -2,6 +2,14 @@
 
   <article>
     <div class="container" id="innerContainer">
+      <script>
+        if( darkmode == "on" ) 
+        {
+          document.getElementById("innerContainer").classList.add("dark-mode-main");
+        } else if( darkmode == "off" ) {
+          document.getElementById("innerContainer").classList.remove("dark-mode-main");
+        }
+      </script>
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
 

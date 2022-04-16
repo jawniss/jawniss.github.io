@@ -38,13 +38,103 @@
     }
   </style>
 </head>
+
+<script src="siteCookiesFunctions.js"></script>
+<body onload="checkCookie()"></body>
+<script>
+  var darkmode = "on";
+
+  // This part is backwards - darkmode is on, so we want to turn evrything on
+  if( darkmode == "off" )
+  {
+
+    var elementBody = document.body;
+    elementBody.classList.remove("dark-mode-body");
+    // document.getElementById("mainBody").classList.toggle("dark-mode-body");
+
+    // var elementContainer = document.container;
+    // elementContainer.classList.toggle("dark-mode-container");
+
+    if( document.getElementById("top") )
+    {
+      document.getElementById("top").classList.remove("dark-mode-main");
+    }
+    if( document.getElementById("innerContainer") ) 
+    {
+      document.getElementById("innerContainer").classList.remove("dark-mode-main");
+    }
+    if( document.getElementById("footer") ) 
+    {
+      document.getElementById("footer").classList.remove("dark-mode-main");
+    }
+    if( document.getElementById("header") ) 
+    {
+      document.getElementById("header").classList.remove("dark-mode-main");
+    }
+
+    if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
+    {
+      document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
+    } else if ( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Edmonton.png)" ) {
+      document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
+    }
+
+    // darkmode is on so we gotta turn it on
+  } else if( darkmode == "on" ) {
+
+    var elementBody = document.body;
+    elementBody.classList.add("dark-mode-body");
+    // document.getElementById("mainBody").classList.toggle("dark-mode-body");
+
+    // var elementContainer = document.container;
+    // elementContainer.classList.toggle("dark-mode-container");
+
+    if( document.getElementById("top") )
+    {
+      document.getElementById("top").classList.add("dark-mode-main");
+    }
+    if( document.getElementById("innerContainer") ) 
+    {
+      document.getElementById("innerContainer").classList.add("dark-mode-main");
+    }
+    if( document.getElementById("footer") ) 
+    {
+      document.getElementById("footer").classList.add("dark-mode-main");
+    }
+    if( document.getElementById("header") ) 
+    {
+      document.getElementById("header").classList.add("dark-mode-main");
+    }
+  }
+</script>
+
+
+
 <!-- <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody"> -->
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody">
 
 <div class="main container" id="top">
+  <script>
+    if( darkmode == "on" ) 
+    {
+      document.getElementById("top").classList.add("dark-mode-main");
+    } else if( darkmode == "off" ) {
+      document.getElementById("top").classList.remove("dark-mode-main");
+    }
+  </script>
+  
 
   {% if site.enable_nav == true %}
   <nav class="navbar navbar-default navbar-fixed-top" id="header">
+    <script>
+      if( darkmode == "on" ) 
+      {
+        document.getElementById("header").classList.add("dark-mode-main");
+      } else if( darkmode == "off" ) {
+        document.getElementById("header").classList.remove("dark-mode-main");
+      }
+      
+    </script>
       <div class="container-fluid">
           <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -59,36 +149,72 @@
 
               <script>
               function myFunction() {
-                var elementBody = document.body;
-                elementBody.classList.toggle("dark-mode-body");
-                // document.getElementById("mainBody").classList.toggle("dark-mode-body");
 
-                // var elementContainer = document.container;
-                // elementContainer.classList.toggle("dark-mode-container");
+                // darkmode is on, so we gotta turn it off
+                if( darkmode == "on" )
+                {
+                  darkmode = "off";
 
-                if( document.getElementById("top") )
-                {
-                  document.getElementById("top").classList.toggle("dark-mode-main");
-                }
-                if( document.getElementById("innerContainer") ) 
-                {
-                  document.getElementById("innerContainer").classList.toggle("dark-mode-main");
-                }
-                if( document.getElementById("footer") ) 
-                {
-                  document.getElementById("footer").classList.toggle("dark-mode-main");
-                }
-                if( document.getElementById("header") ) 
-                {
-                  document.getElementById("header").classList.toggle("dark-mode-main");
-                }
+                  var elementBody = document.body;
+                  elementBody.classList.remove("dark-mode-body");
+                  // document.getElementById("mainBody").classList.toggle("dark-mode-body");
 
-                if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
-                {
-                  document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
-                } else if ( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Edmonton.png)" ) {
-                  document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
+                  // var elementContainer = document.container;
+                  // elementContainer.classList.toggle("dark-mode-container");
+
+                  if( document.getElementById("top") )
+                  {
+                    document.getElementById("top").classList.remove("dark-mode-main");
+                  }
+                  if( document.getElementById("innerContainer") ) 
+                  {
+                    document.getElementById("innerContainer").classList.remove("dark-mode-main");
+                  }
+                  if( document.getElementById("footer") ) 
+                  {
+                    document.getElementById("footer").classList.remove("dark-mode-main");
+                  }
+                  if( document.getElementById("header") ) 
+                  {
+                    document.getElementById("header").classList.remove("dark-mode-main");
+                  }
+
+                  if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
+                  {
+                    document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
+                  } else if ( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Edmonton.png)" ) {
+                    document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
+                  }
+
+                  // darkmode is off so we gotta turn it on
+                } else if( darkmode == "off" ) {
+                  darkmode = "on";
+
+                  var elementBody = document.body;
+                  elementBody.classList.add("dark-mode-body");
+                  // document.getElementById("mainBody").classList.toggle("dark-mode-body");
+
+                  // var elementContainer = document.container;
+                  // elementContainer.classList.toggle("dark-mode-container");
+
+                  if( document.getElementById("top") )
+                  {
+                    document.getElementById("top").classList.add("dark-mode-main");
+                  }
+                  if( document.getElementById("innerContainer") ) 
+                  {
+                    document.getElementById("innerContainer").classList.add("dark-mode-main");
+                  }
+                  if( document.getElementById("footer") ) 
+                  {
+                    document.getElementById("footer").classList.add("dark-mode-main");
+                  }
+                  if( document.getElementById("header") ) 
+                  {
+                    document.getElementById("header").classList.add("dark-mode-main");
+                  }
                 }
+                
               }
               </script>
 

@@ -1,6 +1,14 @@
 
     <footer class="site-footer">
       <div class="container" id="footer">
+        <script>
+          if( darkmode == "on" ) 
+          {
+            document.getElementById("footer").classList.add("dark-mode-main");
+          } else if( darkmode == "off" ) {
+            document.getElementById("footer").classList.remove("dark-mode-main");
+          }
+        </script>
         <div class="row">
 
           <div class="col-xs-12 col-md-2 col-md-offset-1">
