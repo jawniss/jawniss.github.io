@@ -67,9 +67,17 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #ffffff;
-  <!-- border-left: solid 1px #cedfea;
-  border-right: solid 1px #cedfea; -->
+  border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea;
   padding: 20px;
+}
+.dark-mode-body {
+  /* background-color: black; */
+  color: white;
+}
+.dark-mode-main {
+  background-color: black;
+  /* color: white; */
 }
 .flex-container {
   display: flex;

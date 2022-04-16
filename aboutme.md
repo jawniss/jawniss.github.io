@@ -4,6 +4,16 @@ title: About me
 permalink: /aboutme/
 ---
 
+<style>
+.dark-mode-blockquote {
+  border-left: 5px solid white;
+}
+
+.dark-mode-hr {
+  border-top: 3px solid white;
+}
+</style>
+
 <!-- Not sure why the text font is different -->
   <div>
   <!-- h2 I think is header 2 -->
@@ -48,4 +58,8 @@ permalink: /aboutme/
 
 <div align=justify> <p> This website was created based on Jami Gibbs' template found at <a href="http://jamigibbs.github.io/phantom/">jamigibbs.github.io/phantom/</a>. This template was used under the MIT license. </p>
 
+<br>
+<br>
+
+<!-- <p> The open source darkmode widget can be found at <a href="https://darkmodejs.learn.uno">darkmodejs.learn.uno</a>.</p> -->
 </div> 

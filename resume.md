@@ -4,6 +4,18 @@ title: Resume
 permalink: /resume/
 ---
 
+<!-- <style>
+.dark-mode-body {
+  /* background-color: black; */
+  color: white;
+}
+
+.dark-mode-main {
+  background-color: black;
+  /* color: white; */
+}
+</style> -->
+
 <div style="margin: 0 auto; text-align: center"><p><font size="6"><strong> JOHNAS WONG </strong></font></p></div>
 
 <p> <font size="4"> <b> EDUCATION </b> </font> </p>

@@ -35,7 +35,7 @@ permalink: /contactme/
         .container {
           border-radius: 1px;
           background-color: #ffffff;
-          /* border-left: solid 1px #cedfea; */
+          border-left: solid 1px #cedfea;
           border-right: solid 1px #cedfea;
           padding: 20px;
         }
@@ -48,6 +48,17 @@ permalink: /contactme/
         .flex-child:first-child {
           margin-right: 20px;
         } 
+        .dark-mode-body {
+          /* background-color: black; */
+          color: white;
+        }
+        .dark-mode-main {
+          background-color: black;
+          /* color: white; */
+        }
+        .dark-mode-container {
+          background-color: black;
+        }
   </style>
   </head>
 

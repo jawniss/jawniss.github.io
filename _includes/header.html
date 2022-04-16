@@ -26,13 +26,25 @@
   <link rel="stylesheet" href="{{ "/css/animate.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
+  <style>
+    .dark-mode-body {
+      /* background-color: black; */
+      color: white;
+    }
+    
+    .dark-mode-main {
+      background-color: black;
+      /* color: white; */
+    }
+  </style>
 </head>
-<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
+<!-- <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody"> -->
+<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody">
 
 <div class="main container" id="top">
 
   {% if site.enable_nav == true %}
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top" id="header">
       <div class="container-fluid">
           <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -42,6 +54,44 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="/" style="font-family: Arial, Helvetica, sans-serif;">{{ site.admin_name }}</a>
+
+              <button onclick="myFunction()">Toggle dark mode</button>
+
+              <script>
+              function myFunction() {
+                var elementBody = document.body;
+                elementBody.classList.toggle("dark-mode-body");
+                // document.getElementById("mainBody").classList.toggle("dark-mode-body");
+
+                // var elementContainer = document.container;
+                // elementContainer.classList.toggle("dark-mode-container");
+
+                if( document.getElementById("top") )
+                {
+                  document.getElementById("top").classList.toggle("dark-mode-main");
+                }
+                if( document.getElementById("innerContainer") ) 
+                {
+                  document.getElementById("innerContainer").classList.toggle("dark-mode-main");
+                }
+                if( document.getElementById("footer") ) 
+                {
+                  document.getElementById("footer").classList.toggle("dark-mode-main");
+                }
+                if( document.getElementById("header") ) 
+                {
+                  document.getElementById("header").classList.toggle("dark-mode-main");
+                }
+
+                if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
+                {
+                  document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
+                } else if ( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Edmonton.png)" ) {
+                  document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
+                }
+              }
+              </script>
+
           </div>
 
 
