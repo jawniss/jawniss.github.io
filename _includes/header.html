@@ -29,22 +29,57 @@
   <style>
     /* Restringing and contact me pages have their own dark-mode styles need to change too */
     .dark-mode-body {
-      background-color: rgb(44 51 58);
+      background-color: rgb(44, 51, 58);
       color: rgb(216, 216, 216);
+    }
+
+    .dark-mode-body a {
+      color: rgb(0, 238, 255);
     }
 
     .dark-mode-header-footer {
       background-color: rgb(0, 0, 0);
       color: rgb(255, 255, 255);
     }
+
+    .dark-mode-header-footer a {
+      color: rgb(0, 238, 255);
+    }
+
+    .buttonGeneral {
+      background-color: #ffffff;
+      border: 2px solid #00e1ff;
+      border-radius: 25px;
+      color: rgb(0, 0, 0);
+      padding: 8px 13px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 0px 165px;
+      cursor: pointer;
+    }
+
+    .buttonDarkmodeOff {
+      background-color: rgb(0, 0, 0); 
+      color: rgb(255, 255, 255); 
+    }
+
+    .buttonDarkmodeOn {
+      background-color: white; 
+      color: black; 
+    }
   </style>
 </head>
 
 <!-- Global functions -->
 <script type="text/javascript">
-  const allDarkmodeElements = ["top", "innerContainer", "footer", "footer2", "header", "mainBody"];
+  const allDarkmodeElements = ["top", "innerContainer", "footer", "footer2", "header", "mainBody", "adminName"];
   const bodyDarkmodeElements = ["top", "innerContainer", "mainBody"];
-  const headerFooterElements = ["footer", "footer2", "header"];
+  const headerFooterElements = ["footer", "footer2", "header", "adminName"];
+  const pageNames = ["https://jawniss.github.io/", "https://jawniss.github.io/#portfolio", "https://jawniss.github.io/page2/#portfolio", 
+                    "https://jawniss.github.io/page3/#portfolio", "https://jawniss.github.io/restringing/", "https://jawniss.github.io/resume/", 
+                    "https://jawniss.github.io/aboutme/", "https://jawniss.github.io/contactme/" ]
 
   function turnDarkmodeOff()
   {
@@ -79,11 +114,47 @@
 
   function changeBackgroundImage()
   {
-    // if( window.location.href == "https://jawniss.github.io/" && darkmode == "on" )
-    // {
-    //   document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
-    //   document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
-    // }
+    /**
+     * Start with the 5 cases of each different page
+    */
+    if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" ||
+    window.location.href ==  "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" )
+    {
+      if( darkmode == "on" )
+      {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
+      } else {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
+      }
+    } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
+      if( darkmode == "on" )
+      {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
+      } else {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
+      }
+    } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
+      if( darkmode == "on" )
+      {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
+      } else {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
+      }
+    } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
+      if( darkmode == "on" )
+      {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
+      } else {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
+      }
+    } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
+      if( darkmode == "on" )
+      {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
+      } else {
+        document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
+      }
+    }
   }
 </script>
 
@@ -138,13 +209,18 @@
     if( darkmode == "off" || darkmode == "" )
     {
       turnDarkmodeOff();
+      document.getElementById("darkmodeButton").innerText = "darkmode == false;";
+      document.getElementById("darkmodeButton").classList.add("buttonDarkmodeOff");
 
     // darkmode is on so we gotta turn it on
     } else if( darkmode == "on" ) {
-      turnDarkmodeOn()
+      turnDarkmodeOn();
+      document.getElementById("darkmodeButton").innerText = "darkmode == true;";
+      document.getElementById("darkmodeButton").classList.add("buttonDarkmodeOn");
     } else {
       console.log( "Shouldn't be here " );
     }
+    changeBackgroundImage();
   })
 </script>
 
@@ -180,27 +256,32 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/" style="font-family: Arial, Helvetica, sans-serif;">{{ site.admin_name }}</a>
+              <a href="/" style="font-family: Arial, Helvetica, sans-serif;" class="adminNameSize vertical-center" id="adminName">{{ site.admin_name }}</a>
 
-              <!-- <button onclick="myFunction()">Toggle dark mode</button> -->
-              <img src="/img/Graduation-Picture-Circle-Outlined.png" style="width:48px;height:48px;" alt="Toggle dark mode!" onclick="myFunction()">
+              <button onclick="myFunction()" class="buttonGeneral vertical-center" id="darkmodeButton"> Darkmode Button </button>
 
               <script>
               function myFunction() {
-
                 // darkmode is on, so we gotta turn it off
                 if( darkmode == "on" )
                 {
                   darkmode = "off";
                   setCookie("darkmodeCookie", "off", 7);
                   turnDarkmodeOff();
+                  document.getElementById("darkmodeButton").innerText = "darkmode == false;";
+                  document.getElementById("darkmodeButton").classList.add("buttonDarkmodeOff");
+                  document.getElementById("darkmodeButton").classList.remove("buttonDarkmodeOn");
 
                   // darkmode is off so we gotta turn it on
                 } else if( darkmode == "off" ) {
                   darkmode = "on";
                   setCookie("darkmodeCookie", "on", 7);
                   turnDarkmodeOn();
+                  document.getElementById("darkmodeButton").innerText = "darkmode == true;";
+                  document.getElementById("darkmodeButton").classList.add("buttonDarkmodeOn");
+                  document.getElementById("darkmodeButton").classList.remove("buttonDarkmodeOff");
                 }
+                changeBackgroundImage();
               }
               </script>
 
@@ -216,16 +297,16 @@
                 if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" 
                 || window.location.href == "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" )
                 {
-                    // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
-                    document.getElementById("Home").className += "active";
+                  // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
+                  document.getElementById("Home").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
-                    document.getElementById("Restringing (badminton)").className += "active";
+                  document.getElementById("Restringing (badminton)").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
-                    document.getElementById("Resume").className += "active";
+                  document.getElementById("Resume").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
-                    document.getElementById("About me").className += "active";
+                  document.getElementById("About me").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
-                    document.getElementById("Contact me").className += "active";
+                  document.getElementById("Contact me").className += "active";
                 }
               </script>
           </div>

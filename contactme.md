@@ -32,13 +32,6 @@ permalink: /contactme/
         input[type=submit]:hover {
           background-color: #45a049;
         }
-        .containerBody {
-          border-radius: 1px;
-          background-color: #ffffff;
-          /* border-left: solid 1px #cedfea;
-          border-right: solid 1px #cedfea; */
-          padding: 20px;
-        }
         .container {
           border-radius: 1px;
           background-color: #ffffff;
@@ -50,10 +43,10 @@ permalink: /contactme/
         }
         .flex-child {
           flex: 1;
-        }  
+        }
         .flex-child:first-child {
           margin-right: 20px;
-        } 
+        }
         .dark-mode-body {
           background-color: rgb(44 51 58);
           color: rgb(216, 216, 216);
@@ -72,20 +65,24 @@ permalink: /contactme/
   method="POST"
   >
 
-  <div class="flex-containerBody">
+  <div class="flex-container">
     <div class="flex-child">
-      <p> <font size="4"> Name </font> </p>
+      <p> 
+        <font size="4"> Name </font> 
+      </p>
       <input type="text" id="name" name="Name" placeholder="What's your name?" required>
     </div>
     <div class="flex-child">
-      <p> <font size="4"> Email </font> </p>
+      <p> 
+        <font size="4"> Email </font> 
+      </p>
       <input type="text" id="email" name="Email" placeholder="What's your email?" required>
     </div>
   </div>
-
-  <p> <font size="4"> Message </font> </p>
+    <p> 
+      <font size="4"> Message </font> 
+    </p>
     <textarea id="message" name="Message" placeholder="Write me a message!" style="height:200px" required></textarea>
-
     <input type="submit" value="Send">
   </form>
 

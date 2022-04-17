@@ -1,12 +1,9 @@
 - Check how site looks on mobile
 
-- The contact page box is no border on the right cus the input box area is just a bit bigger than border perimeter
-  - Something with border on the contact form container?
-
 - Try to outsource form inputs to excel sheet to eliminate third party program
 
 - Try to animation
 
 - Add website traffic analytics/tracker just for fun
 
-- Make background image change on dark mode toggle
+- Make background image change on dark mode toggle and per page

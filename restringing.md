@@ -64,13 +64,6 @@ input[type=submit]:hover {
   <!-- border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea; -->
 }
-.containerBody {
-  border-radius: 5px;
-  background-color: #ffffff;
-  /* border-left: solid 1px #cedfea;
-  border-right: solid 1px #cedfea; */
-  padding: 20px;
-}
 .container {
   border-radius: 5px;
   background-color: #ffffff;
@@ -93,7 +86,7 @@ input[type=submit]:hover {
 }
 .flex-child:first-child {
   margin-right: 20px;
-} 
+}
 </style>
 
 <body>
