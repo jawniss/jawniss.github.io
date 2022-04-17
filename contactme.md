@@ -32,12 +32,18 @@ permalink: /contactme/
         input[type=submit]:hover {
           background-color: #45a049;
         }
+        .containerBody {
+          border-radius: 1px;
+          background-color: #ffffff;
+          /* border-left: solid 1px #cedfea;
+          border-right: solid 1px #cedfea; */
+          padding: 20px;
+        }
         .container {
           border-radius: 1px;
           background-color: #ffffff;
-          border-left: solid 1px #cedfea;
-          border-right: solid 1px #cedfea;
-          padding: 20px;
+          /* border-left: solid 1px #cedfea;
+          border-right: solid 1px #cedfea; */
         }
         .flex-container {
           display: flex;
@@ -49,16 +55,12 @@ permalink: /contactme/
           margin-right: 20px;
         } 
         .dark-mode-body {
-          background-color: black;
-          color: white;
+          background-color: rgb(44 51 58);
+          color: rgb(216, 216, 216);
         }
-        .dark-mode-main {
-          background-color: black;
-          color: white;
-        }
-        .dark-mode-container {
-          background-color: black;
-          color: white;
+        .dark-mode-header-footer {
+          background-color: rgb(0, 0, 0);
+          color: rgb(255, 255, 255);
         }
   </style>
   </head>
@@ -70,7 +72,7 @@ permalink: /contactme/
   method="POST"
   >
 
-  <div class="flex-container">
+  <div class="flex-containerBody">
     <div class="flex-child">
       <p> <font size="4"> Name </font> </p>
       <input type="text" id="name" name="Name" placeholder="What's your name?" required>

@@ -64,20 +64,26 @@ input[type=submit]:hover {
   <!-- border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea; -->
 }
+.containerBody {
+  border-radius: 5px;
+  background-color: #ffffff;
+  /* border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea; */
+  padding: 20px;
+}
 .container {
   border-radius: 5px;
   background-color: #ffffff;
-  border-left: solid 1px #cedfea;
-  border-right: solid 1px #cedfea;
-  padding: 20px;
+  /* border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea; */
 }
 .dark-mode-body {
-  background-color: black;
-  color: white;
+  background-color: rgb(44 51 58);
+  color: rgb(216, 216, 216);
 }
-.dark-mode-main {
-  background-color: black;
-  color: white;
+.dark-mode-header-footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .flex-container {
   display: flex;

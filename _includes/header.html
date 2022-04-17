@@ -27,35 +27,63 @@
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
   <style>
+    /* Restringing and contact me pages have their own dark-mode styles need to change too */
     .dark-mode-body {
-      background-color: black;
-      color: white;
+      background-color: rgb(44 51 58);
+      color: rgb(216, 216, 216);
     }
-    
-    .dark-mode-main {
-      background-color: black;
-      color: white;
+
+    .dark-mode-header-footer {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
     }
   </style>
 </head>
 
-
-<!-- <script src="/siteCookiesFunctions.js">
-  window.onload = checkCookie();
-</script> -->
-<!-- <body onload="checkCookie()"></body> -->
-
-<!-- <script type="text/javascript">
-  function codeAddress() {
-      alert('ok');
-  }
-  window.onload = codeAddress;
-</script> -->
-
+<!-- Global functions -->
 <script type="text/javascript">
-  function testGlobalFunction()
+  const allDarkmodeElements = ["top", "innerContainer", "footer", "footer2", "header", "mainBody"];
+  const bodyDarkmodeElements = ["top", "innerContainer", "mainBody"];
+  const headerFooterElements = ["footer", "footer2", "header"];
+
+  function turnDarkmodeOff()
   {
-    console.log( "global func" );
+    for( var i = 0; i < allDarkmodeElements.length; ++i )
+    {
+      if( document.getElementById(allDarkmodeElements[i]) )
+      {
+        document.getElementById(allDarkmodeElements[i]).classList.remove("dark-mode-header-footer");
+        document.getElementById(allDarkmodeElements[i]).classList.remove("dark-mode-body");
+      }
+    }
+  }
+
+  function turnDarkmodeOn()
+  {
+    for( var i = 0; i < bodyDarkmodeElements.length; ++i )
+    {
+      if( document.getElementById(bodyDarkmodeElements[i]) )
+      {
+        document.getElementById(bodyDarkmodeElements[i]).classList.add("dark-mode-body");
+      }
+    }
+
+    for( var i = 0; i < headerFooterElements.length; ++i )
+    {
+      if( document.getElementById(headerFooterElements[i]) )
+      {
+        document.getElementById(headerFooterElements[i]).classList.add("dark-mode-header-footer");
+      }
+    }
+  }
+
+  function changeBackgroundImage()
+  {
+    // if( window.location.href == "https://jawniss.github.io/" && darkmode == "on" )
+    // {
+    //   document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
+    //   document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
+    // }
   }
 </script>
 
@@ -82,21 +110,7 @@
   function eraseCookie(name) {   
       document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
   }
-  // function checkCookie() {
-  //     let user = getCookie("username");
-  //     if (user != "" && user!= null) {
-  //       alert("Welcome again " + user);
-  //     } else {
-  //       user = prompt("Please enter your name:","");
-  //       if (user != "" && user != null) {
-  //         setCookie("username", user, 30);
-  //       }
-  //     }
-  // }
-  // window.onload = checkCookie;
 
-
-  // problem: on every page load it's resetting darkmode variable
   var darkmode = "";
 
   function checkCookie() {
@@ -105,114 +119,44 @@
     if (darkmodeSaved == "on") 
     {
       darkmode = "on";
-      console.log( "DM on ", darkmode );
+      // console.log( "DM on ", darkmode );
       setCookie( "darkmodeCookie", "on", 7 );
     } else {
       darkmode = "off";
-      console.log( "DM off ", darkmode );
+      // console.log( "DM off ", darkmode );
       setCookie( "darkmodeCookie", "off", 7 );
     }
   }
 
-  // I think this takes a second so that's why it's not hitting first
+  // This fires once page is loaded, rest of normal code continues on first
   window.onload = checkCookie;
 
+  // Have to wait for checkCookie first, so this is encased in page load wait function
   window.addEventListener( 'load' , function() 
   {
-
-  console.log( "Checked cookie" );
-  console.log( darkmode );
-
-  // var darkmode = "on";
-
-  // This is the on start one time darkmode set
-  if( darkmode == "off" || darkmode == "" )
-  {
-    console.log( "darkmode off, turning darkmode off " );
-    if( document.getElementById("dark-mode-body") )
+    // This is the on start one time darkmode set
+    if( darkmode == "off" || darkmode == "" )
     {
-      document.getElementById("dark-mode-body").classList.remove("dark-mode-body");
-    }
-    if( document.getElementById("top") )
-    {
-      document.getElementById("top").classList.remove("dark-mode-main");
-    }
-    if( document.getElementById("innerContainer") ) 
-    {
-      document.getElementById("innerContainer").classList.remove("dark-mode-main");
-    }
-    if( document.getElementById("footer") ) 
-    {
-      document.getElementById("footer").classList.remove("dark-mode-main");
-    }
-    if( document.getElementById("header") ) 
-    {
-      document.getElementById("header").classList.remove("dark-mode-main");
-    }
-
-    /*
-    if( window.location.href == "https://jawniss.github.io/"
-
-    console.log( document.getElementById("mainBody").style.backgroundImage );
-
-    if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
-    {
-      document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
-    } else if ( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Edmonton.png)" ) {
-      document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
-    }
-    */
+      turnDarkmodeOff();
 
     // darkmode is on so we gotta turn it on
-  } else if( darkmode == "on" ) {
-    console.log( "darkmode off, turning darkmode on " );
-
-    if( document.getElementById("dark-mode-body") )
-    {
-      document.getElementById("dark-mode-body").classList.add("dark-mode-body");
+    } else if( darkmode == "on" ) {
+      turnDarkmodeOn()
+    } else {
+      console.log( "Shouldn't be here " );
     }
-    if( document.getElementById("top") )
-    {
-      document.getElementById("top").classList.add("dark-mode-main");
-    }
-    if( document.getElementById("innerContainer") ) 
-    {
-      document.getElementById("innerContainer").classList.add("dark-mode-main");
-    }
-    if( document.getElementById("footer") ) 
-    {
-      document.getElementById("footer").classList.add("dark-mode-main");
-    }
-    if( document.getElementById("header") ) 
-    {
-      document.getElementById("header").classList.add("dark-mode-main");
-    }
-  } else {
-    console.log( "Shouldn't be here " );
-
-  }
-
   })
-
-  testGlobalFunction();
 </script>
 
-
-
-<!-- <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody"> -->
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody">
-
-  <!-- <script>
-    console.log( document.getElementById("mainBody").style.backgroundImage );
-  </script> -->
 
 <div class="main container" id="top">
   <script>
     if( darkmode == "on" ) 
     {
-      document.getElementById("top").classList.add("dark-mode-main");
+      document.getElementById("top").classList.add("dark-mode");
     } else if( darkmode == "off" ) {
-      document.getElementById("top").classList.remove("dark-mode-main");
+      document.getElementById("top").classList.remove("dark-mode");
     }
   </script>
   
@@ -222,9 +166,9 @@
     <script>
       if( darkmode == "on" ) 
       {
-        document.getElementById("header").classList.add("dark-mode-main");
+        document.getElementById("header").classList.add("dark-mode");
       } else if( darkmode == "off" ) {
-        document.getElementById("header").classList.remove("dark-mode-main");
+        document.getElementById("header").classList.remove("dark-mode");
       }
       
     </script>
@@ -238,7 +182,8 @@
               </button>
               <a class="navbar-brand" href="/" style="font-family: Arial, Helvetica, sans-serif;">{{ site.admin_name }}</a>
 
-              <button onclick="myFunction()">Toggle dark mode</button>
+              <!-- <button onclick="myFunction()">Toggle dark mode</button> -->
+              <img src="/img/Graduation-Picture-Circle-Outlined.png" style="width:48px;height:48px;" alt="Toggle dark mode!" onclick="myFunction()">
 
               <script>
               function myFunction() {
@@ -248,81 +193,23 @@
                 {
                   darkmode = "off";
                   setCookie("darkmodeCookie", "off", 7);
-                  console.log( "set cookie: ", getCookie( "darkmodeCookie" ) );
-
-
-                  if( document.getElementById("dark-mode-body") )
-                  {
-                    document.getElementById("dark-mode-body").classList.remove("dark-mode-body");
-                  }
-                  if( document.getElementById("top") )
-                  {
-                    document.getElementById("top").classList.remove("dark-mode-main");
-                  }
-                  if( document.getElementById("innerContainer") ) 
-                  {
-                    document.getElementById("innerContainer").classList.remove("dark-mode-main");
-                  }
-                  if( document.getElementById("footer") ) 
-                  {
-                    document.getElementById("footer").classList.remove("dark-mode-main");
-                  }
-                  if( document.getElementById("header") ) 
-                  {
-                    document.getElementById("header").classList.remove("dark-mode-main");
-                  }
-
-                  // Instead of checking what it is, I could skip the check and just find URL and darkmode toggle status
-                  // and change to the correct picture
-                  if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
-                  {
-                    document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
-                  } else if ( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Edmonton.png)" ) {
-                    document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
-                  }
+                  turnDarkmodeOff();
 
                   // darkmode is off so we gotta turn it on
                 } else if( darkmode == "off" ) {
                   darkmode = "on";
                   setCookie("darkmodeCookie", "on", 7);
-                  console.log( "set cookie: ", getCookie( "darkmodeCookie" ) );
-
-
-                  if( document.getElementById("dark-mode-body") )
-                  {
-                    document.getElementById("dark-mode-body").classList.add("dark-mode-body");
-                  }
-                  if( document.getElementById("top") )
-                  {
-                    document.getElementById("top").classList.add("dark-mode-main");
-                  }
-                  if( document.getElementById("innerContainer") ) 
-                  {
-                    document.getElementById("innerContainer").classList.add("dark-mode-main");
-                  }
-                  if( document.getElementById("footer") ) 
-                  {
-                    document.getElementById("footer").classList.add("dark-mode-main");
-                  }
-                  if( document.getElementById("header") ) 
-                  {
-                    document.getElementById("header").classList.add("dark-mode-main");
-                  }
+                  turnDarkmodeOn();
                 }
-                
               }
               </script>
 
           </div>
 
 
-          <!-- <div id="navbar" class="navbar-collapse collapse"> -->
           <div id="navbar" class="navPagination navbar-right">
-            <!-- <ul class="nav navbar-nav navbar-right"> -->
               {% for item in site.nav_item %}
-                <!-- <li> -->
-                  <a id="{{ item.text }}" href="{{ item.url }}">{{ item.text }}</a>
-                <!-- </li> -->
+                  <a id="{{ item.text }}" href="{{ item.url }}" style="font-family: Arial, Helvetica, sans-serif;">{{ item.text }}</a>
               {% endfor %}
 
               <script>
@@ -332,21 +219,15 @@
                     // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
                     document.getElementById("Home").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
-                    // document.getElementById("page2").innerHTML = <a href="https://jawniss.github.io/page2/#portfolio" class="active">2</a>;
                     document.getElementById("Restringing (badminton)").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
-                    // document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
                     document.getElementById("Resume").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
-                    // document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
                     document.getElementById("About me").className += "active";
                 } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
-                    // document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
                     document.getElementById("Contact me").className += "active";
                 }
               </script>
-
-            <!-- </ul> -->
           </div>
       </div>
   </nav>

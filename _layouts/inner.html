@@ -1,13 +1,13 @@
 {% include header.html %}
 
   <article>
-    <div class="container" id="innerContainer">
+    <div class="container" id="innerContainer" style="width: auto;">
       <script>
         if( darkmode == "on" ) 
         {
-          document.getElementById("innerContainer").classList.add("dark-mode-main");
+          document.getElementById("innerContainer").classList.add("dark-mode");
         } else if( darkmode == "off" ) {
-          document.getElementById("innerContainer").classList.remove("dark-mode-main");
+          document.getElementById("innerContainer").classList.remove("dark-mode");
         }
       </script>
       <div class="row">

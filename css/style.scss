@@ -95,8 +95,8 @@ button.btn, input.btn {
   // Main page background colour
   // background-color: rgb(146, 60, 60);
   background-color: white;
-  border-left: solid 1px #cedfea;
-  border-right: solid 1px #cedfea;
+  border-left: solid 1px #cedfea !important;
+  border-right: solid 1px #cedfea !important;
   &.container {
     padding: 0;
   }
@@ -322,9 +322,11 @@ button.btn, input.btn {
 	4.0 Footer
 --------------------------------------------------------------*/
 .site-footer {
+  background-color: #ffffff;
   font-size: 14px;
   margin-top: 2em;
   border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
   padding: 1em 0;
   p {
     font-size: 12px;
