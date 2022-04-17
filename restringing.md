@@ -72,34 +72,19 @@ input[type=submit]:hover {
   padding: 20px;
 }
 .dark-mode-body {
-  /* background-color: black; */
+  background-color: black;
   color: white;
 }
 .dark-mode-main {
   background-color: black;
-  /* color: white; */
+  color: white;
 }
 .flex-container {
   display: flex;
 }
 .flex-child {
   flex: 1;
-}  
-.flex-child10 {
-  flex: 10%;
-}  
-.flex-child15 {
-  flex: 15%;
-} 
-.flex-child20 {
-  flex: 20%;
-}  
-.flex-child30 {
-  flex: 30%;
-}  
-.flex-child60 {
-  flex: 60%;
-} 
+}
 .flex-child:first-child {
   margin-right: 20px;
 } 
@@ -163,13 +148,6 @@ input[type=submit]:hover {
        <col span="1" style="width: 15%;">
        <col span="1" style="width: 20%;">
     </colgroup>
-    <!-- <tr>
-      <th><p> <font size="4"> String </font></p></th>
-      <th>&nbsp;</th>
-      <th>&nbsp;</th>
-      <th>&nbsp;</th>
-      <th>&nbsp;</th>
-    </tr> -->
     <tr>
       <td><p> <input type="radio" id="BG65" name="String" value="BG65">
         <label for="BG65">BG65</label> </p></td>

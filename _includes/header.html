@@ -28,33 +28,111 @@
 
   <style>
     .dark-mode-body {
-      /* background-color: black; */
+      background-color: black;
       color: white;
     }
     
     .dark-mode-main {
       background-color: black;
-      /* color: white; */
+      color: white;
     }
   </style>
 </head>
 
-<script src="siteCookiesFunctions.js"></script>
-<body onload="checkCookie()"></body>
-<script>
-  var darkmode = "on";
 
-  // This part is backwards - darkmode is on, so we want to turn evrything on
-  if( darkmode == "off" )
+<!-- <script src="/siteCookiesFunctions.js">
+  window.onload = checkCookie();
+</script> -->
+<!-- <body onload="checkCookie()"></body> -->
+
+<!-- <script type="text/javascript">
+  function codeAddress() {
+      alert('ok');
+  }
+  window.onload = codeAddress;
+</script> -->
+
+<script type="text/javascript">
+  function testGlobalFunction()
+  {
+    console.log( "global func" );
+  }
+</script>
+
+<script type="text/javascript">
+  function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+  }
+  function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+  }
+  function eraseCookie(name) {   
+      document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+  }
+  // function checkCookie() {
+  //     let user = getCookie("username");
+  //     if (user != "" && user!= null) {
+  //       alert("Welcome again " + user);
+  //     } else {
+  //       user = prompt("Please enter your name:","");
+  //       if (user != "" && user != null) {
+  //         setCookie("username", user, 30);
+  //       }
+  //     }
+  // }
+  // window.onload = checkCookie;
+
+
+  // problem: on every page load it's resetting darkmode variable
+  var darkmode = "";
+
+  function checkCookie() {
+    let darkmodeSaved = getCookie("darkmodeCookie");
+
+    if (darkmodeSaved == "on") 
+    {
+      darkmode = "on";
+      console.log( "DM on ", darkmode );
+      setCookie( "darkmodeCookie", "on", 7 );
+    } else {
+      darkmode = "off";
+      console.log( "DM off ", darkmode );
+      setCookie( "darkmodeCookie", "off", 7 );
+    }
+  }
+
+  // I think this takes a second so that's why it's not hitting first
+  window.onload = checkCookie;
+
+  window.addEventListener( 'load' , function() 
   {
 
-    var elementBody = document.body;
-    elementBody.classList.remove("dark-mode-body");
-    // document.getElementById("mainBody").classList.toggle("dark-mode-body");
+  console.log( "Checked cookie" );
+  console.log( darkmode );
 
-    // var elementContainer = document.container;
-    // elementContainer.classList.toggle("dark-mode-container");
+  // var darkmode = "on";
 
+  // This is the on start one time darkmode set
+  if( darkmode == "off" || darkmode == "" )
+  {
+    console.log( "darkmode off, turning darkmode off " );
+    if( document.getElementById("dark-mode-body") )
+    {
+      document.getElementById("dark-mode-body").classList.remove("dark-mode-body");
+    }
     if( document.getElementById("top") )
     {
       document.getElementById("top").classList.remove("dark-mode-main");
@@ -72,23 +150,27 @@
       document.getElementById("header").classList.remove("dark-mode-main");
     }
 
+    /*
+    if( window.location.href == "https://jawniss.github.io/"
+
+    console.log( document.getElementById("mainBody").style.backgroundImage );
+
     if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
     {
       document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
     } else if ( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Edmonton.png)" ) {
       document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Light.png)";
     }
+    */
 
     // darkmode is on so we gotta turn it on
   } else if( darkmode == "on" ) {
+    console.log( "darkmode off, turning darkmode on " );
 
-    var elementBody = document.body;
-    elementBody.classList.add("dark-mode-body");
-    // document.getElementById("mainBody").classList.toggle("dark-mode-body");
-
-    // var elementContainer = document.container;
-    // elementContainer.classList.toggle("dark-mode-container");
-
+    if( document.getElementById("dark-mode-body") )
+    {
+      document.getElementById("dark-mode-body").classList.add("dark-mode-body");
+    }
     if( document.getElementById("top") )
     {
       document.getElementById("top").classList.add("dark-mode-main");
@@ -105,13 +187,24 @@
     {
       document.getElementById("header").classList.add("dark-mode-main");
     }
+  } else {
+    console.log( "Shouldn't be here " );
+
   }
+
+  })
+
+  testGlobalFunction();
 </script>
 
 
 
 <!-- <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody"> -->
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}" id="mainBody">
+
+  <!-- <script>
+    console.log( document.getElementById("mainBody").style.backgroundImage );
+  </script> -->
 
 <div class="main container" id="top">
   <script>
@@ -154,14 +247,14 @@
                 if( darkmode == "on" )
                 {
                   darkmode = "off";
+                  setCookie("darkmodeCookie", "off", 7);
+                  console.log( "set cookie: ", getCookie( "darkmodeCookie" ) );
 
-                  var elementBody = document.body;
-                  elementBody.classList.remove("dark-mode-body");
-                  // document.getElementById("mainBody").classList.toggle("dark-mode-body");
 
-                  // var elementContainer = document.container;
-                  // elementContainer.classList.toggle("dark-mode-container");
-
+                  if( document.getElementById("dark-mode-body") )
+                  {
+                    document.getElementById("dark-mode-body").classList.remove("dark-mode-body");
+                  }
                   if( document.getElementById("top") )
                   {
                     document.getElementById("top").classList.remove("dark-mode-main");
@@ -179,6 +272,8 @@
                     document.getElementById("header").classList.remove("dark-mode-main");
                   }
 
+                  // Instead of checking what it is, I could skip the check and just find URL and darkmode toggle status
+                  // and change to the correct picture
                   if( document.getElementById("mainBody").style.backgroundImage == "url(/img/Background-Image-Light.png)" )
                   {
                     document.getElementById("mainBody").style.backgroundImage="url(/img/Background-Image-Edmonton.png)";
@@ -189,14 +284,14 @@
                   // darkmode is off so we gotta turn it on
                 } else if( darkmode == "off" ) {
                   darkmode = "on";
+                  setCookie("darkmodeCookie", "on", 7);
+                  console.log( "set cookie: ", getCookie( "darkmodeCookie" ) );
 
-                  var elementBody = document.body;
-                  elementBody.classList.add("dark-mode-body");
-                  // document.getElementById("mainBody").classList.toggle("dark-mode-body");
 
-                  // var elementContainer = document.container;
-                  // elementContainer.classList.toggle("dark-mode-container");
-
+                  if( document.getElementById("dark-mode-body") )
+                  {
+                    document.getElementById("dark-mode-body").classList.add("dark-mode-body");
+                  }
                   if( document.getElementById("top") )
                   {
                     document.getElementById("top").classList.add("dark-mode-main");

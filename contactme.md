@@ -49,20 +49,20 @@ permalink: /contactme/
           margin-right: 20px;
         } 
         .dark-mode-body {
-          /* background-color: black; */
+          background-color: black;
           color: white;
         }
         .dark-mode-main {
           background-color: black;
-          /* color: white; */
+          color: white;
         }
         .dark-mode-container {
           background-color: black;
+          color: white;
         }
   </style>
   </head>
 
-  <!-- <body> -->
   <center> <h3> <font size="7"> Contact me </font> </h3> </center>
 
   <form
@@ -87,5 +87,4 @@ permalink: /contactme/
     <input type="submit" value="Send">
   </form>
 
-  <!-- </body> -->
 </html>
