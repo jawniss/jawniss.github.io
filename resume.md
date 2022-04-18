@@ -29,7 +29,7 @@ permalink: /resume/
 ---
 
 <div id="textbox">
-  <p class="alignleft"><b>TRAILRUNNERSTORE, File Management</b> | <font size="3"><i>Remote, Toronto, ON</i></font></p>
+  <p class="alignleft"><b> TRAILRUNNERSTORE, File Management </b> | <font size="3"><i>Remote, Toronto, ON</i></font></p>
   <p class="alignright"><font size="3">Apr 2022 - Present</font></p>
 </div>
 
