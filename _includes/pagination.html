@@ -29,21 +29,27 @@
                     <th>
                         <center>
                             <div class="pagination">
-                                <a id="page1" href="https://jawniss.github.io/#portfolio">1</a>
+                                <!-- <a id="page1" href="https://jawniss.github.io/#portfolio">1</a>
                                 <a id="page2" href="https://jawniss.github.io/page2/#portfolio">2</a>
                                 <a id="page3" href="https://jawniss.github.io/page3/#portfolio">3</a>
-                                <a id="page3" href="https://jawniss.github.io/page4/#portfolio">4</a>
+                                <a id="page3" href="https://jawniss.github.io/page4/#portfolio">4</a> -->
+
+                                <a id="page1" href="https://johnaswong.ca/#portfolio">1</a>
+                                <a id="page2" href="https://johnaswong.ca/page2/#portfolio">2</a>
+                                <a id="page3" href="https://johnaswong.ca/page3/#portfolio">3</a>
+                                <a id="page3" href="https://johnaswong.ca/page4/#portfolio">4</a>
                                 
                                 <script>
-                                    if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" )
+                                    if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" ||
+                                    window.location.href == "https://johnaswong.ca/" || window.location.href == "https://johnaswong.ca/#portfolio" )
                                     {
                                         // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
                                         document.getElementById("page1").className += "active";
-                                    } else if ( window.location.href == "https://jawniss.github.io/page2/#portfolio" ) {
+                                    } else if ( window.location.href == "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://johnaswong.ca/page2/#portfolio" ) {
                                         document.getElementById("page2").className += "active";
-                                    } else if ( window.location.href == "https://jawniss.github.io/page3/#portfolio" ) {
+                                    } else if ( window.location.href == "https://jawniss.github.io/page3/#portfolio" || window.location.href == "https://johnaswong.ca/page3/#portfolio" ) {
                                         document.getElementById("page3").className += "active";
-                                    } else if ( window.location.href == "https://jawniss.github.io/page4/#portfolio" ) {
+                                    } else if ( window.location.href == "https://jawniss.github.io/page4/#portfolio" || window.location.href == "https://johnaswong.ca/page4/#portfolio" ) {
                                         document.getElementById("page4").className += "active";
                                     }
                                 </script>

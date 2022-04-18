@@ -78,10 +78,6 @@
   const allDarkmodeElements = ["top", "innerContainer", "footer", "footer2", "header", "mainBody", "adminName"];
   const bodyDarkmodeElements = ["top", "innerContainer", "mainBody"];
   const headerFooterElements = ["footer", "footer2", "header", "adminName"];
-  // const pageNames = ["https://jawniss.github.io/", "https://jawniss.github.io/#portfolio", "https://jawniss.github.io/page2/#portfolio", 
-  //                   "https://jawniss.github.io/page3/#portfolio", "https://jawniss.github.io/restringing/", "https://jawniss.github.io/resume/", 
-  //                   "https://jawniss.github.io/aboutme/", "https://jawniss.github.io/contactme/" ]
-  // const navbarLinks = ["Home", "Restringing (badminton)", "Resume", "About me", "Contact me"]
 
   function turnDarkmodeOff()
   {
@@ -121,7 +117,10 @@
     */
     if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" ||
     window.location.href ==  "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" ||
-    window.location.href == "https://jawniss.github.io/page4/#portfolio" )
+    window.location.href == "https://jawniss.github.io/page4/#portfolio" ||
+    window.location.href == "https://johnaswong.ca/" || window.location.href == "https://johnaswong.ca/#portfolio" ||
+    window.location.href ==  "https://johnaswong.ca/page2/#portfolio" || window.location.href == "https://johnaswong.ca/page3/#portfolio" ||
+    window.location.href == "https://johnaswong.ca/page4/#portfolio" )
     {
       if( darkmode == "on" )
       {
@@ -129,28 +128,28 @@
       } else {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
       }
-    } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
+    } else if ( window.location.href == "https://jawniss.github.io/restringing/" || window.location.href == "https://johnaswong.ca/restringing/" ) {
       if( darkmode == "on" )
       {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
       } else {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
       }
-    } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
+    } else if ( window.location.href == "https://jawniss.github.io/resume/" || window.location.href == "https://johnaswong.ca/resume/" ) {
       if( darkmode == "on" )
       {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
       } else {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
       }
-    } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
+    } else if ( window.location.href == "https://jawniss.github.io/aboutme/" || window.location.href == "https://johnaswong.ca/aboutme/" ) {
       if( darkmode == "on" )
       {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
       } else {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Ocean-Background.png)";
       }
-    } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
+    } else if ( window.location.href == "https://jawniss.github.io/contactme/" || window.location.href == "https://johnaswong.ca/contactme/" ) {
       if( darkmode == "on" )
       {
         document.getElementById("mainBody").style.backgroundImage="url(/img/Edmonton-Background-Dark.png)";
@@ -304,17 +303,19 @@
 
             <script>
               if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" 
-              || window.location.href == "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" )
+              || window.location.href == "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" || 
+              window.location.href == "https://johnaswong.ca/" || window.location.href == "https://johnaswong.ca/#portfolio" 
+              || window.location.href == "https://johnaswong.ca/page2/#portfolio" || window.location.href == "https://johnaswong.ca/page3/#portfolio" )
               {
                 // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
                 document.getElementById("Home").className += "active";
-              } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
+              } else if ( window.location.href == "https://jawniss.github.io/restringing/" || window.location.href == "https://johnaswong.ca/restringing/" ) {
                 document.getElementById("Restringing (badminton)").className += "active";
-              } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
+              } else if ( window.location.href == "https://jawniss.github.io/resume/" || window.location.href == "https://johnaswong.ca/resume/" ) {
                 document.getElementById("Resume").className += "active";
-              } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
+              } else if ( window.location.href == "https://jawniss.github.io/aboutme/" || window.location.href == "https://johnaswong.ca/aboutme/" ) {
                 document.getElementById("About me").className += "active";
-              } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
+              } else if ( window.location.href == "https://jawniss.github.io/contactme/" || window.location.href == "https://johnaswong.ca/contactme/" ) {
                 document.getElementById("Contact me").className += "active";
               }
             </script>
