@@ -2,8 +2,10 @@
 
 - Try to outsource form inputs to excel sheet to eliminate third party program
 
-- Try to animation
+- Try to dark mode animation
 
 - Add website traffic analytics/tracker just for fun
 
-- Make background image change on dark mode toggle and per page
+- Fix navPagination
+
+- Fix pagination spacing

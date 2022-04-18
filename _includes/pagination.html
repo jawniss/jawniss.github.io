@@ -2,21 +2,20 @@
 
 <table style="width:100%">
     <colgroup>
-        <col span="1" style="width: 20%;">
-        <col span="1" style="width: 20%;">
-        <col span="1" style="width: 20%;">
-        <col span="1" style="width: 20%;">
-        <col span="1" style="width: 20%;">
+        <col span="1" style="width: 30%">
+        <col span="1" style="width: 40%">
+        <col span="1" style="width: 30%">
+        <!-- <col span="1" style="width: 20%;">
+        <col span="1" style="width: 20%;"> -->
     </colgroup>
 <center>
     <nav class="pagination-wrap">
         <ul class="pagination">
                 <tr>
-                    <!-- Filler column -->
-                    <th>
-                        &nbsp;
-                    </th>
                     <th style="text-align: right;">
+                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
+                            <span aria-hidden="true"></span>
+                        </a>
                         {% if paginator.previous_page %}
                             <div class="pagination">
                                 <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#portfolio" aria-label="Previous">
@@ -26,31 +25,33 @@
                         {% endif %}
                     </th>
 
+                    <center>
                     <th>
-                            <center>
-                                <div class="pagination">
-                                    <!-- <a href="#" class="active">2</a> -->
-                                    <a id="page1" href="https://jawniss.github.io/#portfolio">1</a>
-                                    <a id="page2" href="https://jawniss.github.io/page2/#portfolio">2</a>
-                                    <a id="page3" href="https://jawniss.github.io/page3/#portfolio">3</a>
-                                    
-                                    <script>
-                                        if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" )
-                                        {
-                                            // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
-                                            document.getElementById("page1").className += "active";
-                                        } else if ( window.location.href == "https://jawniss.github.io/page2/#portfolio" ) {
-                                            // document.getElementById("page2").innerHTML = <a href="https://jawniss.github.io/page2/#portfolio" class="active">2</a>;
-                                            document.getElementById("page2").className += "active";
-                                        } else if ( window.location.href == "https://jawniss.github.io/page3/#portfolio" ) {
-                                            // document.getElementById("page3").innerHTML = <a href="https://jawniss.github.io/page3/#portfolio" class="active">3</a>;
-                                            document.getElementById("page3").className += "active";
-                                        }
-                                    </script>
-                                    
-                                </div>
-                            </center>
+                        <center>
+                            <div class="pagination">
+                                <a id="page1" href="https://jawniss.github.io/#portfolio">1</a>
+                                <a id="page2" href="https://jawniss.github.io/page2/#portfolio">2</a>
+                                <a id="page3" href="https://jawniss.github.io/page3/#portfolio">3</a>
+                                <a id="page3" href="https://jawniss.github.io/page4/#portfolio">4</a>
+                                
+                                <script>
+                                    if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" )
+                                    {
+                                        // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
+                                        document.getElementById("page1").className += "active";
+                                    } else if ( window.location.href == "https://jawniss.github.io/page2/#portfolio" ) {
+                                        document.getElementById("page2").className += "active";
+                                    } else if ( window.location.href == "https://jawniss.github.io/page3/#portfolio" ) {
+                                        document.getElementById("page3").className += "active";
+                                    } else if ( window.location.href == "https://jawniss.github.io/page4/#portfolio" ) {
+                                        document.getElementById("page4").className += "active";
+                                    }
+                                </script>
+                                
+                            </div>
+                        </center>
                     </th>
+                    </center>
 
                     <th style="text-align: left">
                         {% if paginator.next_page %}
@@ -60,11 +61,6 @@
                                 </a>
                             </div>
                         {% endif %}
-                    </th>
-
-                    <!-- Filler column -->
-                    <th>
-                        &nbsp;
                     </th>
                 </tr>
             </table>

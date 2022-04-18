@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Meta -->
   <meta charset="utf-8">
 
@@ -51,12 +51,12 @@
       border: 2px solid #00e1ff;
       border-radius: 25px;
       color: rgb(0, 0, 0);
-      padding: 8px 13px;
+      padding: 3px 10px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
       font-size: 14px;
-      margin: 0px 165px;
+      margin: 0px 0px;
       cursor: pointer;
     }
 
@@ -77,9 +77,10 @@
   const allDarkmodeElements = ["top", "innerContainer", "footer", "footer2", "header", "mainBody", "adminName"];
   const bodyDarkmodeElements = ["top", "innerContainer", "mainBody"];
   const headerFooterElements = ["footer", "footer2", "header", "adminName"];
-  const pageNames = ["https://jawniss.github.io/", "https://jawniss.github.io/#portfolio", "https://jawniss.github.io/page2/#portfolio", 
-                    "https://jawniss.github.io/page3/#portfolio", "https://jawniss.github.io/restringing/", "https://jawniss.github.io/resume/", 
-                    "https://jawniss.github.io/aboutme/", "https://jawniss.github.io/contactme/" ]
+  // const pageNames = ["https://jawniss.github.io/", "https://jawniss.github.io/#portfolio", "https://jawniss.github.io/page2/#portfolio", 
+  //                   "https://jawniss.github.io/page3/#portfolio", "https://jawniss.github.io/restringing/", "https://jawniss.github.io/resume/", 
+  //                   "https://jawniss.github.io/aboutme/", "https://jawniss.github.io/contactme/" ]
+  // const navbarLinks = ["Home", "Restringing (badminton)", "Resume", "About me", "Contact me"]
 
   function turnDarkmodeOff()
   {
@@ -118,7 +119,8 @@
      * Start with the 5 cases of each different page
     */
     if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" ||
-    window.location.href ==  "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" )
+    window.location.href ==  "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" ||
+    window.location.href == "https://jawniss.github.io/page4/#portfolio" )
     {
       if( darkmode == "on" )
       {
@@ -256,9 +258,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="/" style="font-family: Arial, Helvetica, sans-serif;" class="adminNameSize vertical-center" id="adminName">{{ site.admin_name }}</a>
+              <a href="/" style="font-family: Arial, Helvetica, sans-serif;" class="navbar-brand" id="adminName">{{ site.admin_name }}</a>
 
-              <button onclick="myFunction()" class="buttonGeneral vertical-center" id="darkmodeButton"> Darkmode Button </button>
+              <button onclick="myFunction()" class="buttonGeneral navbar-brand" id="darkmodeButton" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0px;"> Darkmode Button </button>
 
               <script>
               function myFunction() {
@@ -288,27 +290,33 @@
           </div>
 
 
-          <div id="navbar" class="navPagination navbar-right">
-              {% for item in site.nav_item %}
-                  <a id="{{ item.text }}" href="{{ item.url }}" style="font-family: Arial, Helvetica, sans-serif;">{{ item.text }}</a>
-              {% endfor %}
 
-              <script>
-                if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" 
-                || window.location.href == "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" )
-                {
-                  // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
-                  document.getElementById("Home").className += "active";
-                } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
-                  document.getElementById("Restringing (badminton)").className += "active";
-                } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
-                  document.getElementById("Resume").className += "active";
-                } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
-                  document.getElementById("About me").className += "active";
-                } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
-                  document.getElementById("Contact me").className += "active";
-                }
-              </script>
+          <div id="navbar" class="navbar-collapse collapse">
+          <!-- <div id="navbar" class="navbar-collapse collapse navPagination"> -->
+            <ul class="nav navbar-nav navbar-right navPagination">
+              {% for item in site.nav_item %}
+                <li>
+                  <a id="{{ item.text }}" href="{{ item.url }}" style="font-family: Arial, Helvetica, sans-serif;">{{ item.text }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+
+            <script>
+              if( window.location.href == "https://jawniss.github.io/" || window.location.href == "https://jawniss.github.io/#portfolio" 
+              || window.location.href == "https://jawniss.github.io/page2/#portfolio" || window.location.href == "https://jawniss.github.io/page3/#portfolio" )
+              {
+                // document.getElementById("page1").innerHTML = <a href="https://jawniss.github.io/#portfolio" class="active">1</a>;
+                document.getElementById("Home").className += "active";
+              } else if ( window.location.href == "https://jawniss.github.io/restringing/" ) {
+                document.getElementById("Restringing (badminton)").className += "active";
+              } else if ( window.location.href == "https://jawniss.github.io/resume/" ) {
+                document.getElementById("Resume").className += "active";
+              } else if ( window.location.href == "https://jawniss.github.io/aboutme/" ) {
+                document.getElementById("About me").className += "active";
+              } else if ( window.location.href == "https://jawniss.github.io/contactme/" ) {
+                document.getElementById("Contact me").className += "active";
+              }
+            </script>
           </div>
       </div>
   </nav>
