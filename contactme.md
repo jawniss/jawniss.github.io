@@ -60,6 +60,10 @@ permalink: /contactme/
 
   <center> <h3> <font size="7"> Contact me </font> </h3> </center>
 
+  <center> <p> 
+    <font size="4"> Send me an email at johnas@ualberta.ca or fill out the form below! </font> 
+  </p> </center>
+
   <form
   action="https://formspree.io/f/mzbogkkl"
   method="POST"

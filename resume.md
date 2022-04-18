@@ -16,7 +16,7 @@ permalink: /resume/
 <p class="alignleft" align=justify>
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
-        Bachelor of Science, Computer Engineering
+      Bachelor of Science, Computer Engineering
     </font>
     </span>
 </p>
@@ -29,15 +29,14 @@ permalink: /resume/
 ---
 
 <div id="textbox">
-  <p class="alignleft"><b>University of Alberta, Teaching Assistant</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
-  <p class="alignright"><font size="3">Sep 2021 - Present</font></p>
+  <p class="alignleft"><b>TRAILRUNNERSTORE, File Management</b> | <font size="3"><i>Remote, Toronto, ON</i></font></p>
+  <p class="alignright"><font size="3">Apr 2022 - Present</font></p>
 </div>
 
 <p class="alignleft" align=justify>
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
-      I am the Executive Producer for a game development team in the same course where my team developed Where Shadows Lie<sup>1</sup>. I oversee the team’s road maps and progress, using my course experience to guide them to the best producible game by the end of term. This is currently my second consecutive term.
-    </font>
+      Currently I am working part time as a file manager for the online running gear store <a href="https://www.trailrunnerstore.com">trailrunnerstore.com</a>. I am checking all previous supplier purchase orders, invoices, packing slips, and transfers to the online inventory, cross checking, updating, and reorganizing all records to validate accurate inventory tracking. Future goals are to develop an automated program to efficiently perform this cross checking.</font>
     </span>
 </p>
 
@@ -52,6 +51,21 @@ permalink: /resume/
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
       I offer a restringing service where I restore racquets to playable condition, each job varying per player. Clear communication with clients is imperative in ensuring I am providing exactly what they want.
+    </font>
+    </span>
+</p>
+
+<div style="clear: both;"></div>
+
+<div id="textbox">
+  <p class="alignleft"><b>University of Alberta, Teaching Assistant</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
+  <p class="alignright"><font size="3">Sep 2021 - Apr 2022</font></p>
+</div>
+
+<p class="alignleft" align=justify>
+    <span style="padding-left: 30px; padding-right: 25px; display:block">
+    <font size="3">
+      I was the Executive Producer for the development teams 2EN Gaming with their game Revenant Beats and Pygmy Squash Studios with Descent into Amphora in the same course where my team developed Where Shadows Lie1¬. I oversaw the team’s road maps and progress, using my course experience to guide them to the best producible game by the end of term.
     </font>
     </span>
 </p>
