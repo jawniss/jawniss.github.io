@@ -87,6 +87,12 @@ input[type=submit]:hover {
 .flex-child:first-child {
   margin-right: 20px;
 }
+/* table {
+  color: black;
+}
+.dark-mode table {
+  color: rgb(216, 216, 216);
+} */
 </style>
 
 <body>
@@ -139,7 +145,7 @@ input[type=submit]:hover {
 
   <p> <font size="4"> String </font></p>
   <!-- Table to put string options in -->
-  <table style="width:100%">
+  <table style="width:100%" id="restringingTable">
       <colgroup>
        <col span="1" style="width: 20%;">
        <col span="1" style="width: 20%;">
