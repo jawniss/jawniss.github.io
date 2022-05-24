@@ -30,14 +30,14 @@ permalink: /resume/
 ---
 
 <div id="textbox">
-  <p class="alignleft"><b> TRAILRUNNERSTORE, File Management </b> | <font size="3"><i>Remote, Toronto, ON</i></font></p>
+  <p class="alignleft"><b> The Trail Runner Store, Inventory Validator </b> | <font size="3"><i>Toronto, Ontario (Remote)</i></font></p>
   <p class="alignright"><font size="3">Apr 2022 - Present</font></p>
 </div>
 
 <p class="alignleft" align=justify>
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
-      Currently I am working part time as a file manager for the online running gear store <a href="https://www.trailrunnerstore.com">trailrunnerstore.com</a>. I am checking all previous supplier purchase orders, invoices, packing slips, and transfers to the online inventory, cross checking, updating, and reorganizing all records to validate accurate inventory tracking. Future goals are to develop an automated program to efficiently perform this cross checking.</font>
+      Currently I am working part time for the online running gear store <a href="https://www.trailrunnerstore.com">trailrunnerstore.com</a>. I am tasked with verifying previous supplier invoices, receipt of delivery, and online inventory updates to the online store. This entails going through all sales orders sent to the suppliers, and crosschecking with the invoices, packing slips, and online store inventory trackers. All inconsistencies and discrepancies are logged.</font>
     </span>
 </p>
 
@@ -66,7 +66,7 @@ permalink: /resume/
 <p class="alignleft" align=justify>
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
-      I was the Executive Producer for the development teams 2EN Gaming with their game Revenant Beats and Pygmy Squash Studios with Descent into Amphora in the same course where my team developed Where Shadows Lie1¬. I oversaw the team’s road maps and progress, using my course experience to guide them to the best producible game by the end of term.
+      I was the Executive Producer for the development teams 2EN Gaming with their game Revenant Beats and Pygmy Squash Studios with Descent into Amphora in the same course where my team developed Where Shadows Lie<sup>1</sup>. I oversaw the team’s road maps and progress, using my course experience to guide them to the best producible game by the end of term.
     </font>
     </span>
 </p>
