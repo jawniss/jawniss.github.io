@@ -28,8 +28,7 @@ All prices include labour and are non-negotiable
 
 Miscellaneous
 5  - Grip replacement (White)
-5  - Only badly damaged grommets replacement
-10 - Full frame grommet replacement
+5  - Grommets replacement
 {% endhighlight %}
 
 <!-- <!DOCTYPE html> -->
