@@ -101,7 +101,7 @@ input[type=submit]:hover {
 <br>
 <hr>
 
-<center> <h3> Restringing Request </h3> </center>
+<center> <h3> Restringing Form </h3> </center>
 
 <br>
 
@@ -112,66 +112,56 @@ input[type=submit]:hover {
   >
 
   <div class="flex-container">
-
-  <div class="flex-child">
-    <p> <font size="4"> Name </font> </p>
-    <input type="text" id="name" name="Name" placeholder="What's your name?" required>
+    <div class="flex-child">
+      <p> <font size="4"> Name </font> </p>
+      <input type="text" id="name" name="Name" placeholder="What's your name?" required>
+    </div>
+    <div class="flex-child">
+      <p> <font size="4"> Phone number (preferred) or email </font> </p>
+      <input type="text" id="contact" name="Contact" placeholder="What's your phone number/email?" required>
+    </div>
   </div>
-  
-  <div class="flex-child">
-    <p> <font size="4"> Phone number (preferred) or email </font> </p>
-    <input type="text" id="contact" name="Contact" placeholder="What's your phone number/email?" required>
-  </div>
-  
-  </div>
-
-
 
 
   <div class="flex-container">
-
-  <div class="flex-child">
-    <p> <font size="4"> Racquet model </font> </p>
-    <input type="text" id="racquet" name="Racquet" placeholder="What's your racquet?">
-  </div>
-  
-  <div class="flex-child">
-    <p> <font size="4"> Tension (lbs) </font> </p>
-    <input type="text" id="Tension" name="Tension" placeholder="What tension would you like?">
-  </div>
-  
+    <div class="flex-child">
+      <p> <font size="4"> Racquet model </font> </p>
+      <input type="text" id="racquet" name="Racquet" placeholder="What's your racquet?">
+    </div>
+    <div class="flex-child">
+      <!-- <p> <font size="4"> Tension (lbs) </font> </p>
+      <input type="text" id="Tension" name="Tension" placeholder="What tension would you like?"> -->
+    </div>
   </div>
 
-  <p> <font size="4"> String </font></p>
-  <!-- Table to put string options in -->
-  <table style="width:100%" id="restringingTable">
-      <colgroup>
-       <col span="1" style="width: 20%;">
-       <col span="1" style="width: 20%;">
-       <col span="1" style="width: 25%;">
-       <col span="1" style="width: 15%;">
-       <col span="1" style="width: 20%;">
-    </colgroup>
-    <tr>
-      <td><p> <input type="radio" id="BG65" name="String" value="BG65">
-        <label for="BG65">BG65</label> </p></td>
-      <td><p> <font size="4"> 25 </font></p></td>
-      <td><p> <input type="radio" id="Exbolt 63" name="String" value="Exbolt 63">
-        <label for="Exbolt 63">Exbolt 63</label> </p></td>
-      <td><p> <font size="4"> 30 </font></p></td>
-      <td><p> <input type="radio" id="Not sure" name="String" value="Not sure">
-        <label for="Not sure">Not sure</label> </p></td>
-    </tr>
-    <tr>
-      <td><p> <input type="radio" id="BG80" name="String" value="BG80">
-        <label for="BG80">BG80</label> </p></td>
-      <td><p> <font size="4"> 27 </font></p></td>
-      <td><p> <input type="radio" id="Your strings" name="String" value="Your strings">
-        <label for="Your strings">Your strings</label> </p></td>
-      <td><p> <font size="4"> 20 </font></p></td>
-      <td> &nbsp; </td>
-    </tr>
-  </table>
+  <div class="flex-container">
+    <div class="flex-child">
+      <label for="string">String (Price)</label>
+      <select name="string" id="string">
+        <option value="BG65">BG65 (25)</option>
+        <option value="BG80">BG80 (27)</option>
+        <option value="Exbolt63">Exbolt 63 (30)</option>
+        <option value="YourStrings">Your Strings (20)</option>
+        <option value="NotSure">Not sure</option>
+      </select>
+    </div>
+    <div class="flex-child">
+      <label for="tension">Tension (lbs)</label>
+      <select name="tension" id="tension">
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+      </select>
+    </div>
+  </div>
 
   <br>
 
@@ -180,7 +170,7 @@ input[type=submit]:hover {
   <div class="flex-container">
     <div class="flex-child">
       <center>
-      <p> <font size="4"> Regrip <br><br> 5 &nbsp;&nbsp;&nbsp; </font>
+      <p> <font size="4"> Regrip <br> 5 &nbsp;&nbsp;&nbsp; </font>
       <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
       </center>
     </div>
@@ -192,33 +182,6 @@ input[type=submit]:hover {
     </div>
   </div>
 
-  <div class="flex-container">
-    <div class="flex-child">
-      <label for="string">String</label>
-      <select name="string" id="string">
-        <option value="BG65">BG65</option>
-        <option value="BG80">BG80</option>
-        <option value="Exbolt63">Exbolt 63</option>
-        <option value="YourStrings">Your Strings</option>
-        <option value="NotSure">Not sure</option>
-      </select>
-    </div>
-    <div class="flex-child">
-      <div class="flex-child">
-        <center>
-        <p> <font size="4"> Regrip <br><br> 5 &nbsp;&nbsp;&nbsp; </font>
-        <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
-        </center>
-      </div>
-      <div class="flex-child">
-        <center>
-        <p> <font size="4"> Grommets replacement <br> 5 &nbsp;&nbsp;&nbsp; </font>
-        <input type="checkbox" name="Grommets" placeholder="Would you like your grommets replaced?" id="grommets"> </p>
-        </center>
-      </div>
-    </div>
-  </div>
-
   <br>
 
   <!-- <label for="comments">Other comments</label> -->
@@ -227,7 +190,8 @@ input[type=submit]:hover {
 
   <br>
 
-    <input type="submit" value="Send">
+  <input type="submit" value="Send">
+  
   </form>
 <!-- </div> -->
 
