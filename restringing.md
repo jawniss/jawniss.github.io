@@ -178,28 +178,45 @@ input[type=submit]:hover {
   <p> <font size="4"> Miscellaneous </font></p>
 
   <div class="flex-container">
+    <div class="flex-child">
+      <center>
+      <p> <font size="4"> Regrip <br><br> 5 &nbsp;&nbsp;&nbsp; </font>
+      <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
+      </center>
+    </div>
+    <div class="flex-child">
+      <center>
+      <p> <font size="4"> Grommets replacement <br> 5 &nbsp;&nbsp;&nbsp; </font>
+      <input type="checkbox" name="Grommets" placeholder="Would you like your grommets replaced?" id="grommets"> </p>
+      </center>
+    </div>
+  </div>
 
-  <div class="flex-child">
-    <center>
-    <p> <font size="4"> Regrip <br><br> 5 &nbsp;&nbsp;&nbsp; </font>
-    <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
-    </center>
-  </div>
-  
-  <div class="flex-child">
-    <center>
-    <p> <font size="4"> Damaged grommets replacement <br> 5 &nbsp;&nbsp;&nbsp; </font>
-    <input type="checkbox" name="Damaged Grommets" placeholder="Would you like your grommets replaced?" id="damagedgrommets"> </p>
-    </center>
-  </div>
-
-  <div class="flex-child">
-    <center>
-    <p> <font size="4"> Full frame grommet replacement <br> 10 &nbsp;&nbsp;&nbsp; </font>
-    <input type="checkbox" name="All Grommets" placeholder="Would you like your grommets replaced?" id="allgrommets"> </p>
-    </center>
-  </div>
-  
+  <div class="flex-container">
+    <div class="flex-child">
+      <label for="string">String</label>
+      <select name="string" id="string">
+        <option value="BG65">BG65</option>
+        <option value="BG80">BG80</option>
+        <option value="Exbolt63">Exbolt 63</option>
+        <option value="YourStrings">Your Strings</option>
+        <option value="NotSure">Not sure</option>
+      </select>
+    </div>
+    <div class="flex-child">
+      <div class="flex-child">
+        <center>
+        <p> <font size="4"> Regrip <br><br> 5 &nbsp;&nbsp;&nbsp; </font>
+        <input type="checkbox" name="Regrip" placeholder="Would you like your grip changed?" id="regrip"> </p>
+        </center>
+      </div>
+      <div class="flex-child">
+        <center>
+        <p> <font size="4"> Grommets replacement <br> 5 &nbsp;&nbsp;&nbsp; </font>
+        <input type="checkbox" name="Grommets" placeholder="Would you like your grommets replaced?" id="grommets"> </p>
+        </center>
+      </div>
+    </div>
   </div>
 
   <br>
