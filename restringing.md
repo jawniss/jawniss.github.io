@@ -121,13 +121,8 @@ method="POST"
   </div>
 </div>
 
-
-<div class="flex-container">
-  <div class="flex-child">
-    <p> <font size="4"> Racquet model </font> </p>
-    <input type="text" id="racquet" name="Racquet" placeholder="What racquet do you have?">
-  </div>
-</div>
+<p> <font size="4"> Racquet model </font> </p>
+<input type="text" id="racquet" name="Racquet" placeholder="What racquet do you have?">
 
 <div class="flex-container">
   <div class="flex-child">
