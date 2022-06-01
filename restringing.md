@@ -11,20 +11,22 @@ I offer an Edmonton racquet restringing service! I have been stringing for about
 <br>
 Ask me about strings, tensions, racquets, or general court advice! Although I have never gotten formal training, I've been playing for approximately 7 years now and have learned an enormous amount from my time on court as well as my friends whom are certified coaches. Currently I'm a volunteer coach at M.E. LaZerte High School. <br>
 <br>
-I'm based in Northside Edmonton, and the Clareview Recreation Centre is the best place for me to meet. I can most often have your racquet back up in playing condition for you by the next day. <br>
+The Clareview Recreation Centre is the best place for me to meet. I can most often have your racquet back up in playing condition for you by the next day. <br>
 <br>
 I'm always happy to chat about anything badminton! <br>
 <br>
 </p>
 
 {% highlight txt %}
-Prices:
-
 All prices include labour and are non-negotiable
+Each job includes a few free replacements of badly damaged grommets.
+
 20 - If you bring your own strings (only labour)
 25 - BG65
 27 - BG80
 30 - Exbolt 63
+30 - BG66 Ultimax
+30 - BG80 Power
 
 Miscellaneous
 5  - Grip replacement (White)
