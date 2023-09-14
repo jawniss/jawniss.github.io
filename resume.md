@@ -6,13 +6,6 @@ permalink: /resume/
 
 <div style="margin: 0 auto; text-align: center"><p><font size="6"><strong> JOHNAS WONG </strong></font></p></div>
 
-<p> <font size="4"> <b> EDUCATION </b> </font> </p>
----
-<div id="textbox">
-  <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
-  <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
-</div>
-
 <div style="clear: both;"></div>
 
 <!-- This is only way I managed to get it on the left side - makes no sense -->
@@ -29,15 +22,18 @@ permalink: /resume/
 <p> <font size="4"><b> WORK EXPERIENCE </b></font> </p>
 ---
 
+<div style="clear: both;"></div>
+
 <div id="textbox">
-  <p class="alignleft"><b> The Trail Runner Store, Inventory Validator </b> | <font size="3"><i>Toronto, Ontario (Remote)</i></font></p>
-  <p class="alignright"><font size="3">Apr 2022 - Present</font></p>
+  <p class="alignleft"><b>Visionstate Corp., Software Developer</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
+  <p class="alignright"><font size="3">Jul 2022 - Present</font></p>
 </div>
 
 <p class="alignleft" align=justify>
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
-      Currently I am working part time for the online running gear store <a href="https://www.trailrunnerstore.com">trailrunnerstore.com</a>. I am tasked with verifying previous supplier invoices, receipt of delivery, and online inventory updates to the online store. This entails going through all sales orders sent to the suppliers, and crosschecking with the invoices, packing slips, and online store inventory trackers. All inconsistencies and discrepancies are logged.</font>
+      I am currently working as a full time software developer at Visionstate Corp. I do a mixture of bug fixing and new feature development moving between their online website portal and the mobile application. This means regular switching of languages and environments, which has developed my ability to adapt.
+    </font>
     </span>
 </p>
 
@@ -53,6 +49,20 @@ permalink: /resume/
     <font size="3">
       I offer a restringing service where I restore racquets to playable condition, each job varying per player. Clear communication with clients is imperative in ensuring I am providing exactly what they want.
     </font>
+    </span>
+</p>
+
+<div style="clear: both;"></div>
+
+<div id="textbox">
+  <p class="alignleft"><b> The Trail Runner Store, Inventory Validator </b> | <font size="3"><i>Toronto, Ontario (Remote)</i></font></p>
+  <p class="alignright"><font size="3">Apr 2022 - Jul 2022</font></p>
+</div>
+
+<p class="alignleft" align=justify>
+    <span style="padding-left: 30px; padding-right: 25px; display:block">
+    <font size="3">
+      I worked part time for the online running gear store <a href="https://www.trailrunnerstore.com">trailrunnerstore.com</a>. I was tasked with verifying previous supplier invoices, receipt of delivery, and online inventory updates to the online store. This entailed going through all sales orders sent to the suppliers, and crosschecking with the invoices, packing slips, and online store inventory trackers. All inconsistencies and discrepancies were logged.</font>
     </span>
 </p>
 
@@ -172,6 +182,13 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 </p>
 
 <div style="clear: both;"></div>
+
+<p> <font size="4"> <b> EDUCATION </b> </font> </p>
+---
+<div id="textbox">
+  <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
+  <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
+</div>
 
 <br>
 
