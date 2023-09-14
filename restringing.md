@@ -7,7 +7,7 @@ permalink: /restringing/
 ## Badminton Racquet Restringing
 
 <p align=justify>
-I offer an Edmonton racquet restringing service! I have been stringing for about 4 years now, and I was the main stringer for the University of Alberta Badminton Club for 2 years. <br>
+I offer an Edmonton racquet restringing service! I have been stringing for about 5 years now, and I was the main stringer for the University of Alberta Badminton Club for 2 years. <br>
 <br>
 Ask me about strings, tensions, racquets, or general court advice! Although I have never gotten formal training, I've been playing for approximately 7 years now and have learned an enormous amount from my time on court as well as my friends whom are certified coaches. Currently I'm a volunteer coach at M.E. LaZerte High School. <br>
 <br>
@@ -23,10 +23,12 @@ Each job includes a few free replacements of badly damaged grommets.
 
 20 - If you bring your own strings (only labour)
 25 - BG65
-27 - BG80
-30 - Exbolt 63
-30 - BG66 Ultimax
+25 - BG65-Ti
+30 - BG80
 30 - BG80 Power
+30 - Exbolt 63
+30 - Exbolt 65
+30 - BG66 Ultimax
 
 Miscellaneous
 5  - Grip replacement (White)
@@ -131,8 +133,12 @@ method="POST"
     <p> <font size="4"> String (Price) </font> </p>
     <select name="string" id="string">
       <option value="BG65">BG65 (25)</option>
-      <option value="BG80">BG80 (27)</option>
+      <option value="BG65-Ti">BG65-Ti (25)</option>
       <option value="Exbolt63">Exbolt 63 (30)</option>
+      <option value="Exbolt65">Exbolt 65 (30)</option>
+      <option value="BG66">BG66 (30)</option>
+      <option value="BG80">BG80 (30)</option>
+      <option value="BG80Power">BG80 Power (30)</option>
       <option value="YourStrings">Your strings (20)</option>
       <option value="NotSure">Not sure</option>
     </select>
