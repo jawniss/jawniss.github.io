@@ -61,7 +61,7 @@ permalink: /contactme/
   <center> <h3> <font size="7"> Contact me </font> </h3> </center>
 
   <center> <p> 
-    <font size="4">Send me an email at <a href = "mailto: johnas@ualberta.ca">johnas@ualberta.ca</a> or fill out the form below!</font> 
+    <font size="4">Send me an email at <a href = "mailto: johnaskcwong@gmail.com">johnaskcwong@gmail.com</a> or fill out the form below!</font> 
   </p> </center>
 
   <form
@@ -86,7 +86,7 @@ permalink: /contactme/
     <p> 
       <font size="4"> Message </font> 
     </p>
-    <textarea id="message" name="Message" placeholder="Write me a message!" style="height:200px" required></textarea>
+    <textarea id="message" name="Message" placeholder="Say hi! 👋" style="height:200px" required></textarea>
     <input type="submit" value="Send">
   </form>
 
