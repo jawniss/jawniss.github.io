@@ -132,6 +132,8 @@ method="POST"
   <div class="flex-child">
     <p> <font size="4"> String (Price) </font> </p>
     <select name="string" id="string">
+      <option value="MyRecommendation">My recommendation</option>
+      <option value="YourStrings">Your strings (25)</option>
       <option value="BG65">BG65 (30)</option>
       <option value="BG65-Ti">BG65-Ti (30)</option>
       <option value="Exbolt63">Exbolt 63 (35)</option>
@@ -139,8 +141,6 @@ method="POST"
       <option value="BG66">BG66 (35)</option>
       <option value="BG80">BG80 (35)</option>
       <option value="BG80Power">BG80 Power (35)</option>
-      <option value="YourStrings">Your strings (25)</option>
-      <option value="NotSure">Not sure</option>
     </select>
   </div>
   <div class="flex-child">
