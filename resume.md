@@ -165,7 +165,7 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 <p class="alignleft" align=justify>
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
-      This program successfully established a socket connection dictated by a unique port number and IP address in which multiple terminals could connect to, allowing them to send and receive data to one another. A queue successfully retained the order the clients sent their data in, ensuring the correct orderof messages received by the server.
+      This program successfully established a socket connection dictated by a unique port number and IP address in which multiple terminals could connect to, allowing them to send and receive data to one another. A queue successfully retained the order the clients sent their data in, ensuring the correct order of messages received by the server.
     </font>
     </span>
 </p>
@@ -198,28 +198,9 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
 </div>
 
-<p class="alignleft" align=justify>
-    <span style="padding-left: 30px; padding-right: 25px; display:block">
-    <font size="3">
-      Bachelor of Science, Computer Engineering
-    </font>
-    </span>
-</p>
-
-
-<div id="textbox">
-  <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font>
-  <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
-</div>
-
-<p class="alignleft" align=justify>
-    <span style="padding-left: 30px; padding-right: 25px; display:block">
-    <font size="3">
-      Bachelor of Science, Computer Engineering
-    </font>
-    </span>
-</p>
-
+<font size="3">
+Bachelor of Science, Computer Engineering
+</font>
 
 <br>
 
