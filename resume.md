@@ -199,14 +199,13 @@ I am currently self-learning Flutter, Dart, and Unreal Engine 5.
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
 </div>
 
-<!-- This is only way I managed to get it on the left side - makes no sense -->
-<table style="width:70%; margin-left: 30px;">
-  <span style="padding-left: 30px; padding-right: 25px; display:block">
-  <font size="3">
-    Bachelor of Science, Computer Engineering
-  </font>
-  </span>
-</table>
+<p class="alignleft" align=justify>
+    <span style="padding-left: 30px; padding-right: 25px; display:block">
+    <font size="3">
+      Bachelor of Science, Computer Engineering
+    </font>
+    </span>
+</p>
 
 <br>
 
