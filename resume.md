@@ -195,15 +195,16 @@ I am currently self-learning Flutter, Dart, and Unreal Engine 5.
 <div id="textbox">
   <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
-  <!-- This is only way I managed to get it on the left side - makes no sense -->
-  <table style="width:70%; margin-left: 30px;">
-    <span style="padding-left: 30px; padding-right: 25px; display:block">
-    <font size="3">
-      Bachelor of Science, Computer Engineering
-    </font>
-    </span>
-  </table>
 </div>
+
+<!-- This is only way I managed to get it on the left side - makes no sense -->
+<table style="width:70%; margin-left: 30px;">
+  <span style="padding-left: 30px; padding-right: 25px; display:block">
+  <font size="3">
+    Bachelor of Science, Computer Engineering
+  </font>
+  </span>
+</table>
 
 <br>
 
