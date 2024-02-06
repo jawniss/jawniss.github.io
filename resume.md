@@ -107,7 +107,8 @@ permalink: /resume/
 <p> <font size="4"> <b> SKILLS, EXPERTISE, AND PROJECTS</b></font> </p>
 ---
 <font size="3">
-Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.\nI am currently self-learning Flutter, Dart, and Unreal Engine 5.
+Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.
+  I am currently self-learning Flutter, Dart, and Unreal Engine 5.
 </font>
 
 <div id="textbox">
