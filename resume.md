@@ -8,8 +8,6 @@ permalink: /resume/
 
 <div style="clear: both;"></div>
 
-<br>
-
 <p> <font size="4"><b> WORK EXPERIENCE </b></font> </p>
 ---
 
@@ -195,14 +193,6 @@ I am currently self-learning Flutter, Dart, and Unreal Engine 5.
 <div id="textbox">
   <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
-</div>
-
-<br>
-
-<p>
-<font size="2"> 
-  <sup>1</sup> Where Shadows Lie can be played at <a href="https://jordon-ogo.github.io">jordon-ogo.github.io</a>.
-</font>
   <!-- This is only way I managed to get it on the left side - makes no sense -->
   <table style="width:70%; margin-left: 30px;">
     <span style="padding-left: 30px; padding-right: 25px; display:block">
@@ -211,4 +201,12 @@ I am currently self-learning Flutter, Dart, and Unreal Engine 5.
     </font>
     </span>
   </table>
+</div>
+
+<br>
+
+<p>
+<font size="2"> 
+  <sup>1</sup> Where Shadows Lie can be played at <a href="https://jordon-ogo.github.io">jordon-ogo.github.io</a>.
+</font>
 </p>
