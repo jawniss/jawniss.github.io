@@ -21,18 +21,18 @@ I'm always happy to chat about anything badminton! <br>
 All prices include labour and are non-negotiable
 Each job includes a few free replacements of badly damaged grommets.
 
-20 - If you bring your own strings (only labour)
-25 - BG65
-25 - BG65-Ti
-30 - BG80
-30 - BG80 Power
-30 - Exbolt 63
-30 - Exbolt 65
-30 - BG66 Ultimax
+25 - If you bring your own strings (only labour)
+30 - BG65
+30 - BG65-Ti
+35 - BG80
+35 - BG80 Power
+35 - Exbolt 63
+35 - Exbolt 65
+35 - BG66 Ultimax
 
 Miscellaneous
 5  - Grip replacement (White)
-5  - Grommets replacement
+10 - Grommets replacement
 {% endhighlight %}
 
 <!-- <!DOCTYPE html> -->
@@ -132,14 +132,14 @@ method="POST"
   <div class="flex-child">
     <p> <font size="4"> String (Price) </font> </p>
     <select name="string" id="string">
-      <option value="BG65">BG65 (25)</option>
-      <option value="BG65-Ti">BG65-Ti (25)</option>
-      <option value="Exbolt63">Exbolt 63 (30)</option>
-      <option value="Exbolt65">Exbolt 65 (30)</option>
-      <option value="BG66">BG66 (30)</option>
-      <option value="BG80">BG80 (30)</option>
-      <option value="BG80Power">BG80 Power (30)</option>
-      <option value="YourStrings">Your strings (20)</option>
+      <option value="BG65">BG65 (30)</option>
+      <option value="BG65-Ti">BG65-Ti (30)</option>
+      <option value="Exbolt63">Exbolt 63 (35)</option>
+      <option value="Exbolt65">Exbolt 65 (35)</option>
+      <option value="BG66">BG66 (35)</option>
+      <option value="BG80">BG80 (35)</option>
+      <option value="BG80Power">BG80 Power (35)</option>
+      <option value="YourStrings">Your strings (25)</option>
       <option value="NotSure">Not sure</option>
     </select>
   </div>
@@ -175,7 +175,7 @@ method="POST"
   </div>
   <div class="flex-child">
     <center>
-    <p> <font size="4"> Grommets replacement <br> 5 &nbsp;&nbsp;&nbsp; </font>
+    <p> <font size="4"> Grommets replacement <br> 10 &nbsp;&nbsp;&nbsp; </font>
     <input type="checkbox" name="Grommets" placeholder="Would you like your grommets replaced?" id="grommets"> </p>
     </center>
   </div>
