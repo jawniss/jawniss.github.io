@@ -188,6 +188,8 @@ I am currently self-learning Flutter, Dart, and Unreal Engine 5.
 
 <div style="clear: both;"></div>
 
+<br>
+
 <p> <font size="4"> <b> EDUCATION </b> </font> </p>
 ---
 <div id="textbox">
