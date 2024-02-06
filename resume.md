@@ -107,8 +107,7 @@ permalink: /resume/
 <p> <font size="4"> <b> SKILLS, EXPERTISE, AND PROJECTS</b></font> </p>
 ---
 <font size="3">
-Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.\
-I am currently self-learning Flutter, Dart, and Unreal Engine 5.
+Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VHDL, XML, Android Studio, and the Firebase Real-time Database.\nI am currently self-learning Flutter, Dart, and Unreal Engine 5.
 </font>
 
 <div id="textbox">
@@ -206,6 +205,21 @@ I am currently self-learning Flutter, Dart, and Unreal Engine 5.
     </font>
     </span>
 </p>
+
+
+<div id="textbox">
+  <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font>
+  <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
+</div>
+
+<p class="alignleft" align=justify>
+    <span style="padding-left: 30px; padding-right: 25px; display:block">
+    <font size="3">
+      Bachelor of Science, Computer Engineering
+    </font>
+    </span>
+</p>
+
 
 <br>
 
