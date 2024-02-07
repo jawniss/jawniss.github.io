@@ -201,7 +201,7 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
 </div>
 
-<p class="alignleft" align=justify>
+<p class="alignleft">
     <span style="padding-left: 30px; padding-right: 25px; display:block">
     <font size="3">
             Bachelor of Science, Computer Engineering
