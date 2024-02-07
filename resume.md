@@ -202,6 +202,7 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 <font size="3">
 Bachelor of Science, Computer Engineering
 </font>
+<p style='text-align: left;'> Bachelor of Science, Computer Engineering </p>
 
 <br>
 
