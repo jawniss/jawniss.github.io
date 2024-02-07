@@ -205,9 +205,11 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
   </span>
 </p>
 
----
-
-<br>
+<p style='text-align: left;'> 
+  <span style="padding-left: 30px; padding-right: 25px; display:block">
+                   
+  </span>
+</p>
 
 <p>
 <font size="2"> 
