@@ -194,21 +194,22 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 
 <p> <font size="4"> <b> EDUCATION </b> </font> </p>
 ---
+<div style="clear: both;"></div>
+
 <div id="textbox">
-  <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
+  <p class="alignleft">University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
-  <p class="alignleft">
-    <span style="padding-left: 30px; padding-right: 25px; display:block">
-      Bachelor of Science
-    </span>
-  </p>
 </div>
 
-<p style='text-align: left;'> 
-  <span style="padding-left: 30px; padding-right: 25px; display:block">
-   Computer Engineering
-  </span>
+<p class="alignleft" align=justify>
+    <span style="padding-left: 30px; padding-right: 25px; display:block">
+    <font size="3">
+            Bachelor of Science, Computer Engineering
+    </font>
+    </span>
 </p>
+
+<div style="clear: both;"></div>
 
 <div id="textbox">
 <p>
