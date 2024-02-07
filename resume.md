@@ -197,7 +197,7 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 <div style="clear: both;"></div>
 
 <div id="textbox">
-  <p class="alignleft">University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
+  <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
 </div>
 
