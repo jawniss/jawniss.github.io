@@ -197,6 +197,9 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
 <div id="textbox">
   <p class="alignleft"><b>University of Alberta</b> | <font size="3"><i>Edmonton, Alberta</i></font></p>
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
+</div>
+
+<div id="textbox">
   <p class="alignleft"><font size="3">Bachelor of Science, Computer Engineering</font></p>
 </div>
 
