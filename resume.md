@@ -199,9 +199,9 @@ Experienced in C, C++, Golang, HTML, Java, JavaScript, Markdown, Python, SQL, VH
   <p class="alignright"><font size="3">Sep 2017 - Apr 2021</font></p>
 </div>
 
-<div id="textbox">
-  <p class="alignleft"><font size="3">Bachelor of Science, Computer Engineering</font></p>
-</div>
+<font size="3">
+Bachelor of Science, Computer Engineering
+</font>
 
 <br>
 
