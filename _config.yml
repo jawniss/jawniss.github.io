@@ -105,7 +105,6 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/restringing', text: 'Restringing (badminton)' }
   - { url: '/resume', text: 'Resume' }
   - { url: '/aboutme', text: 'About me' }
   - { url: '/contactme', text: 'Contact me' }
