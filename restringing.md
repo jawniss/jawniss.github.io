@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: Restringing
-permalink: /restringing/
+permalink:
 ---
 
 ## Badminton Racquet Restringing
